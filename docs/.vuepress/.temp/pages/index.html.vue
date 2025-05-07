@@ -1,0 +1,22 @@
+<template><div><h1 id="all-in-ai-看见未来" tabindex="-1"><a class="header-anchor" href="#all-in-ai-看见未来"><span>All in AI，看见未来</span></a></h1>
+<blockquote>
+<p>每天精选最值得读的AI文章，帮你筛掉时代的噪音。</p>
+</blockquote>
+<hr>
+<p><strong>以简讯见广度，以深读见洞察。</strong></p>
+<h2 id="栏目介绍" tabindex="-1"><a class="header-anchor" href="#栏目介绍"><span>栏目介绍</span></a></h2>
+<ul>
+<li><strong>每日简讯</strong>：快速浏览AI领域最新动态与趋势。</li>
+<li><strong>深度精选</strong>：每期推荐值得深读的AI好文，助你洞察行业本质。</li>
+<li><strong>技术前沿</strong>：聚焦AI技术进展、工具与实战经验。</li>
+<li><strong>趋势观察</strong>：追踪AI产业、应用与未来发展方向。</li>
+<li><strong>思考与观点</strong>：精选AI领域的深度思考与独立见解。</li>
+</ul>
+<hr>
+<blockquote>
+<p>技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<p>欢迎关注，每天一起看见未来！</p>
+</div></template>
+
+

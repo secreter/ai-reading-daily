@@ -1,0 +1,16 @@
+import comp from "/Users/chaoyang/study/projcet/ai-daily/docs/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"All in AI，看见未来\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"栏目介绍\",\"slug\":\"栏目介绍\",\"link\":\"#栏目介绍\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"README.md\",\"excerpt\":\"\\n<blockquote>\\n<p>每天精选最值得读的AI文章，帮你筛掉时代的噪音。</p>\\n</blockquote>\\n<hr>\\n<p><strong>以简讯见广度，以深读见洞察。</strong></p>\\n<h2>栏目介绍</h2>\\n<ul>\\n<li><strong>每日简讯</strong>：快速浏览AI领域最新动态与趋势。</li>\\n<li><strong>深度精选</strong>：每期推荐值得深读的AI好文，助你洞察行业本质。</li>\\n<li><strong>技术前沿</strong>：聚焦AI技术进展、工具与实战经验。</li>\\n<li><strong>趋势观察</strong>：追踪AI产业、应用与未来发展方向。</li>\\n<li><strong>思考与观点</strong>：精选AI领域的深度思考与独立见解。</li>\\n</ul>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
