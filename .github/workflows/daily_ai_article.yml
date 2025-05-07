@@ -2,7 +2,7 @@ name: Daily AI Article
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,9 +26,11 @@ jobs:
         NODE_ENV: production
     
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add docs/posts/*.md
         git commit -m "Auto-generated daily AI article" || echo "No changes to commit"
-        git push
+        git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
