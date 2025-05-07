@@ -37,9 +37,8 @@ const routePath = useRoutePath()
 @use '@vuepress/theme-default/styles/mixins';
 
 .tag-wrapper {
-  @include mixins.content-wrapper;
-
   padding-top: calc(var(--navbar-height) + 1rem) !important;
+  @include mixins.content-wrapper;
   padding-bottom: 0 !important;
   font-size: 0.875em;
 

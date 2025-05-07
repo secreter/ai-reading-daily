@@ -2,7 +2,7 @@ name: Daily AI Article
 
 on:
   schedule:
-    - cron: '30 0 * * *'
+    - cron: '0 4 * * *'  # 每天北京时间中午 12 点
   workflow_dispatch:
 
 jobs:
