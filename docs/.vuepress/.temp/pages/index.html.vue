@@ -16,7 +16,8 @@
 <blockquote>
 <p>技术、趋势、思考，一站式掌握AI世界。</p>
 </blockquote>
-<p>欢迎关注，每天一起看见未来！</p>
+<p>欢迎关注，每天一起看见未来！公众号：AI Reading Hub</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/nUdl0pLHXXYY3LiaoXGeYrvCyMouK7WnJ35tic6NtXT3dy4icpz7ep1B27hGiahgQ1Gicj8qSjJzlo8g761N4P7ibgOg/640?wx_fmt=png&amp;from=appmsg" alt=""></p>
 </div></template>
 
 
