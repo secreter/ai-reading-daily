@@ -1,6 +1,6 @@
-import { CodeTabs } from "/Users/chaoyang/study/projcet/ai-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
-import { Tabs } from "/Users/chaoyang/study/projcet/ai-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
-import "/Users/chaoyang/study/projcet/ai-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
+import { CodeTabs } from "/home/runner/work/ai-reading-daily/ai-reading-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
+import { Tabs } from "/home/runner/work/ai-reading-daily/ai-reading-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
+import "/home/runner/work/ai-reading-daily/ai-reading-daily/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
 
 export default {
   enhance: ({ app }) => {
