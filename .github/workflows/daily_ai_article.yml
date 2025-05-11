@@ -27,15 +27,6 @@ jobs:
 
     - name: Build VuePress site
       run: npm run docs:build
-    
-    - name: Checkout gh-pages
-      uses: actions/checkout@v4
-      with:
-        ref: gh-pages
-        path: gh-pages
-        
-    - name: Copy existing content
-      run: cp -r gh-pages/. docs/.vuepress/dist || true
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
