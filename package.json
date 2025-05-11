@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:update-package": "npx vp-update",
     "gen": "node ./scripts/fetch_ai_articles.js",
-    "gen:prod": "NODE_ENV=production node ./scripts/fetch_ai_articles.js && npm run docs:build"
+    "gen:prod": "NODE_ENV=production node ./scripts/fetch_ai_articles.js"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
