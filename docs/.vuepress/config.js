@@ -42,6 +42,9 @@ export default defineUserConfig({
       // Only files under posts are articles
       filter: ({ filePathRelative }) =>
         filePathRelative ? filePathRelative.startsWith('posts/') : false,
+      
+      // Auto generate navbar from posts
+      autoNavbar: true,
 
       // Getting article info
       getInfo: ({ frontmatter, title, data }) => ({
