@@ -61,7 +61,7 @@ async function fetchAiArticle() {
     const image = "https://picsum.photos/1200/630?random=" + Math.floor(Math.random() * 10000); // 随机风景图作为封面
     const today = new Date().toISOString().slice(0, 10);
     const titleSegments = brief_content.split("; ").slice(0, 3).join("; ");
-    const title = `${today}AI日报：${titleSegments}`;
+    const title = `AI日报：${titleSegments}`;
     generateMarkdownFile(markdownContent, title, today);
     await publishToJuejin(title, markdownContent,brief_content);
   } catch (error) {
