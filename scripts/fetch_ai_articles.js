@@ -4,8 +4,8 @@ import path from "path";
 
 async function fetchArticle() {
   const apiUrl = process.env.NODE_ENV === 'production' 
-    ? "https://www.feishudocs.com/api/articles/daily"
-    : "http://localhost:3003/api/articles/daily";
+    ? "https://www.feishudocs.com/api/articles/daily?from=github"
+    : "http://localhost:3003/api/articles/daily?from=github";
   const response = await axios.get(apiUrl);
   return response.data || "";
 }
