@@ -29,6 +29,7 @@ async function publishToJuejin(title, markdownContent,brief_content) {
       : "http://localhost:3003/api/publishjuejin";
     // const brief_content = markdownContent.slice(0, 200).replace(/[#>*\-\[\]!`]/g, "").replace(/\n/g, " ");
     const image = "https://picsum.photos/1200/630?random=" + Math.floor(Math.random() * 10000); // 随机风景图作为封面
+    
     const publishRes = await axios.post(publishUrl, {
       title,
       content: markdownContent,
@@ -47,7 +48,8 @@ async function publishToJuejin(title, markdownContent,brief_content) {
 
 async function fetchAiArticle() {
   try {
-    const markdownContent = await fetchArticle();
+    let markdownContent = await fetchArticle();
+    markdownContent = markdownContent.replace(/<img id="weixin_qr"[^>]*>/g, "");
     // 提取前四个以###开头的标题
     const matches = Array.from(markdownContent.matchAll(/^###\s*(.+)$/gm)).map(m => m[1]);
     let brief_content = matches.join("; ");
