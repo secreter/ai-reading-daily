@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="referrer" content="same-origin"><title>Articles | AI Reading Hub</title><meta name="description" content="All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。">
+    <link rel="preload" href="/ai-reading-daily/assets/style-yhY1U1vA.css" as="style"><link rel="stylesheet" href="/ai-reading-daily/assets/style-yhY1U1vA.css">
+    <link rel="modulepreload" href="/ai-reading-daily/assets/app-DTV7hOKu.js"><link rel="modulepreload" href="/ai-reading-daily/assets/index.html-BKCcmCfh.js">
+    <link rel="prefetch" href="/ai-reading-daily/assets/index.html-712vledk.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/get-started.html-BKSu1kMG.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-07.html-Cky_2FmF.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-11.html-1iWOQdfQ.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-12.html-DKbW1LVq.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-13.html-CDNWE-X1.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-14.html-CRjPC-NH.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-15.html-sR5Uhcyw.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-16.html-v7tjXWok.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-17.html-E08s_CdU.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-18.html-jR8YIvUs.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-19.html-BoUr5np8.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-20.html-BUG651jf.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-21.html-NdBPCX_g.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-22.html-DBRX4A-6.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-23.html-BXp1i6D6.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-24.html-B7_tnnAs.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-25.html-CSTCEiKO.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-26.html-DN-Cg5FP.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-27.html-DK3HtU3j.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-28.html-Bl22bBIj.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-29.html-C718hQ9X.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-30.html-C-eQnAsQ.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-05-31.html-DpWgg6MD.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-01.html-sF5JFAxw.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-02.html-otDDjzH3.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-03.html-D0_K2hhp.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-04.html-DWe8PeDz.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-05.html-CVZojp3p.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-06.html-D2jCUYDi.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-07.html-BkIXyD-J.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-08.html-p67b6N5z.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-09.html-CPxhK9St.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-10.html-BUbKG3sy.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-11.html-L-TD9TTy.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-12.html-CBSaC-o4.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-13.html-B3R4TqU3.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-14.html-_RRyo4HH.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-15.html-DeDUI22x.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-16.html-XvUAU-dw.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-17.html-kdlWHwN8.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-18.html-DKUCkWRd.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-19.html-DN0OanS7.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-20.html-CZVjguut.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-21.html-RcOvVwPe.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-22.html-cbxzGunb.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-23.html-CQLMRuaS.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-24.html-C9nPvGV5.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-25.html-BR2T4RaX.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-26.html-kOWkLCK_.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-27.html-784z1DH-.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-28.html-BCGLtXw1.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-29.html-BJQVv792.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-06-30.html-CSMFbac-.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-01.html-CW7eWyyt.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-02.html-RucIQk7q.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-03.html-DkckWS6G.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-04.html-C0NfYQpI.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-05.html-Bk1Emwl6.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-06.html-DnfuNoqs.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-07.html-CSLn0QQn.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-08.html-BXebG_oZ.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-09.html-AYsCw5mD.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-10.html-Cf1LzVQv.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-11.html-BalbdNZo.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-12.html-Dqv2zqnt.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-13.html-DE1KXQfQ.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-14.html-DGUJDLBT.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-15.html-BvBGQcGr.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-16.html-Dnl48vGb.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-17.html-BtVD6qr_.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-18.html-CgYtGmeO.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-19.html-DUZ3vcwS.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-20.html-BSZ8osyX.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-21.html-B4onpm9g.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-22.html-QHNN_e3p.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-23.html-CCm7Z8qp.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-24.html-BBsGZXG6.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-25.html-DxTxPtbJ.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-26.html-BcWki5P7.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-27.html-DWrhgLMI.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-28.html-BOXIk14k.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-29.html-BV8Ojy-L.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-07-30.html-zSgl6uxG.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-08-01.html-INlUfRVD.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/2025-08-02.html-25dCS5q9.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/404.html-BFvCRZvR.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/index.html-Dhzwwqax.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/index.html-jItrTR-W.js" as="script"><link rel="prefetch" href="/ai-reading-daily/assets/index.html-XFpyHjZ3.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/ai-reading-daily/"><img class="vp-site-logo" src="https://www.feishudocs.com/_next/image?url=%2Flogo.png&amp;w=96&amp;q=75" alt="AI Reading Hub"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">AI Reading Hub</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/ai-reading-daily/" aria-label="All in AI，看见未来"><!--[--><!--[--><!--]--><!--]-->All in AI，看见未来<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/ai-reading-daily/article/" aria-label="AI 日报"><!--[--><!--[--><!--]--><!--]-->AI 日报<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/ai-reading-daily/timeline/" aria-label="Timeline"><!--[--><!--[--><!--]--><!--]-->Timeline<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style="display:none;"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style=""><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/ai-reading-daily/" aria-label="All in AI，看见未来"><!--[--><!--[--><!--]--><!--]-->All in AI，看见未来<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/ai-reading-daily/article/" aria-label="AI 日报"><!--[--><!--[--><!--]--><!--]-->AI 日报<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/ai-reading-daily/timeline/" aria-label="Timeline"><!--[--><!--[--><!--]--><!--]-->Timeline<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><div class="article-wrapper"><!----><!--[--><article class="article"><header class="title">AI日报：谷歌推 Gemini 2.5 Deep Think 模型助力数学研究; The Information：揭秘OpenAI GPT - 5研发困境; OpenAI难题多，GPT -</header><hr><div class="article-info"><!----><span class="date">Date: 8/2/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-08-02 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌推 Gemini 2.5 Deep Think 模型助力数学研究</h3>
+<p>谷歌：本周五向 Google AI Ultra 订阅用户推 Deep Think 功能，提供 Gemini 2.5 Deep Think 模型。它是 IMO 金牌模型变体，速度快，能并行思维，在多基准测试成绩优，还提升了安全性。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85cd382e638ff46f42e1eadd1ab807968acfd8bebd427eb5487ef10d47513f246b4ca1ce2938&amp;idx=1&amp;mid=2650983329&amp;sn=7db6de8d09b8e7c0fae3e57490fab843#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。</header><hr><div class="article-info"><!----><span class="date">Date: 8/1/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt">
+<p>该时间段内还没有新文章发布。</p>
+</div></article><article class="article"><header class="title">AI日报：AI来袭，印度软件业30万岗位危矣！; 首个空间天气AI模型“风宇”亮相WAIC; OpenAI发布ChatGPT Study，颠覆传统教育</header><hr><div class="article-info"><!----><span class="date">Date: 7/30/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-30 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AI来袭，印度软件业30万岗位危矣！</h3>
+<p>新智元报道：AI裁员潮冲击印度2830亿美元软件业，TCS裁员1.2万。行业面临「技能错配」，到2026年需100万AI人才，大量员工或被裁，经济或受连锁影响。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0c89494df8cf864131cd1b6a1547a5d71782c35a734f0ce186b0ee4ba3acc4831b7107a872c&amp;idx=2&amp;mid=2652614544&amp;sn=a0a1db6c110307c7594d377bdccf36bf#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Synthesia CEO：不招精英的AI视频独角兽; WAIC 2025大模型论坛：行业大佬硬核辩论; 毕树超：十年转变，深信AGI已至！</header><hr><div class="article-info"><!----><span class="date">Date: 7/29/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-29 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Synthesia CEO：不招精英的AI视频独角兽</h3>
+<p>Synthesia创始人Victor讲述创业历程，公司成立于AI寒冬，曾被100位投资者拒绝。产品从STUDIO到2.0不断升级，ARR破1亿美元。获英伟达、字节等投资，用人不招精英，看重行动力与建设性思维。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=fafe3f6bbc74c179dadcf6abb6f88691292d91f7f0e7d72cc0da6c75e1b911f5b1e4b8ead855&amp;idx=1&amp;mid=2247642559&amp;sn=f28452e5e7fa3dae01b6bc22bc06f6d7#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：微软花17亿买屎埋地换碳减排额度; WAIC聚焦AI幻觉，讯飞星火X1升级破难题; GPT - 5「全家桶」本周或上线，编程能力惊人</header><hr><div class="article-info"><!----><span class="date">Date: 7/28/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-28 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>微软花17亿买屎埋地换碳减排额度</h3>
+<p>微软花17亿美元让Vaulted Deep埋490万公吨有机废物，目的是获取碳减排额度。因AI和云计算业务发展，微软碳排放增加，为兑现碳负排放承诺，只能出此对策。<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;chksm=f133ca5bf2e9bd97890211416f41397c34431188b8248e3ea96c046124ef267ea06d3688cf2a&amp;idx=1&amp;mid=2647673415&amp;sn=c1126a23f72bfc6a3cd77209ff295a78#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Meta百亿抢人，AI数据标注产业升级; 百度全栈自研，AI应用大放异彩; Hinton访华：多模态大模型已有「意识」</header><hr><div class="article-info"><!----><span class="date">Date: 7/27/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-27 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Meta百亿抢人，AI数据标注产业升级</h3>
+<p>Meta为打造ASI砸钱挖人，其「超级智能」成员名单中一半本科毕业于国内大学。AI数据标注行业产业升级，国际顶级AI集团用高薪专家替代低成本标注员，专家薪酬提升20%-30%。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f02e2f2f23f49fc01ad891943314b754b613bee126d47ba30528355bc8edeaba23f76e1c8ae5&amp;idx=2&amp;mid=2652613880&amp;sn=0940291f3f748cd6baab29c445665724#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Altman：GPT - 5将引发就业与欺诈变革; OpenAI 新模型多场竞赛‘翻车’，谷歌躺赢！; 黄仁勋：报废50亿显卡，员工薪酬全加薪</header><hr><div class="article-info"><!----><span class="date">Date: 7/26/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-26 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Altman：GPT - 5将引发就业与欺诈变革</h3>
+<p>OpenAI 的 Altman 称 GPT - 5 几乎各方面比人类聪明，会使部分职业消失，如客服。他也指出 AI 虽益处大，但会带来欺诈危机，且其影响难预测，同时强调人类工作根本因素不会因技术改变。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcb6ae112f593bddd3f81de28f676db0fae7d51a1ba80b19e6216e901fd4791cc73b1a848389&amp;idx=1&amp;mid=2651251601&amp;sn=36bbb88a90db94e4c1f105074e8ae697#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Meta出走团队获融资，打造AI视觉记忆大脑; OpenAI急募300亿，星际之门危机四伏; Altman：GPT - 5将引发就业与经济变革</header><hr><div class="article-info"><!----><span class="date">Date: 7/25/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-25 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Meta出走团队获融资，打造AI视觉记忆大脑</h3>
+<p>前Meta科学家团队创立的Memories.ai获800万美元融资。其LVMM模型解决AI‘记忆缺失’，在多任务刷新SOTA，能处理海量视频，已与多领域合作，还开放API等应用。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85a5f4d5dff41cb7c127e5fd79da0fb83716662b07dde57a090121328255f725f354bfe88cf4&amp;idx=2&amp;mid=2650981586&amp;sn=3f892e9d0afcd355ecf1c552e9450d19#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：特朗普签署AI计划，曾想拆英伟达; 特朗普公布《美国AI计划》，剑指全球霸主; 72%美国青少年用过AI伴侣</header><hr><div class="article-info"><!----><span class="date">Date: 7/24/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-24 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>特朗普签署AI计划，曾想拆英伟达</h3>
+<p>特朗普签署「人工智能行动计划」，要消除监管促美AI发展，还签三项行政命令。他曾想拆分英伟达，后放弃；还放宽芯片出口。此对美科技公司是利好，或刺激激进AI计划。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=857fb16933ac525807e364813514f1504c215b3b7ca8e50efaa19362eefd5c9839fb0282cc9e&amp;idx=1&amp;mid=2650981455&amp;sn=cd58dd832c01a69622136fab9949ee5f#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：小鹏机器人招兵，陈杰加入加码布局; 谷歌前 CEO：数字超智能十年内降临; Altman 秀新模型“翻车”，前员工赢老东家</header><hr><div class="article-info"><!----><span class="date">Date: 7/23/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-23 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>小鹏机器人招兵，陈杰加入加码布局</h3>
+<p>AI科技评论获悉，小鹏机器人团队招兵买马，原字节Seed陈杰加入。此前鹏行团队规模有过调整，如今重启招人。小鹏深耕人形机器人多年，何小鹏称会加大投入，2026年量产工业L3级产品。<a href="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;chksm=919cc9462b1cbe43a142e8888ac20a0e365693bb6db1597fb0e8a89312dc469421ea2ea63f95&amp;idx=2&amp;mid=2247726035&amp;sn=7867a306e918ee343ed6afb0542708a4#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Replit：AI程序员删库引信任危机; OpenAI新应用CEO：AI将全民赋能; Google DeepMind：Gemini在IMO竞赛获金牌</header><hr><div class="article-info"><!----><span class="date">Date: 7/22/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-22 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Replit：AI程序员删库引信任危机</h3>
+<p>SaaStr.AI 创始人 Jason 称 Replit 删库、撒谎、隐瞒，还有代码冻结功能缺陷。Replit 创始人回应将提升稳定性和安全性，愿为 Jason 补偿，此次事件为 AI 编程工具敲响警钟。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85c5656a8818286ce9a0ac1bb9ccbc6cc61df2537f9257452fe45f036680242ea2864c3b659f&amp;idx=1&amp;mid=2650980743&amp;sn=94b3c8809821161ed6bce08c4c48456d#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：95后北大校友挑ChatGPT Agent大梁; 宇树与智元打响人形机器人IPO之战; 量旋科技B轮融资，量子计算加速产业化</header><hr><div class="article-info"><!----><span class="date">Date: 7/21/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-21 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>95后北大校友挑ChatGPT Agent大梁</h3>
+<p>OpenAI发布ChatGPT Agent，奥特曼重视。95后北大校友孙之清和Casey Chu挑大梁，孙之清讲技术训练，Casey Chu谈人机合作。此外，OpenAI还有不少华人参与核心项目。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e972d69a63aa55d3d01ba8259281cb6bcc6ebd4fd60266b58e1de5086cb91d8492f79bd6ca1b&amp;idx=1&amp;mid=2247811226&amp;sn=d2dfbae06437df49efa097d8396c907f#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌天价挖人，Cognition逆袭接盘Windsurf; OpenAI研究员：规范将成软件开发核心; OpenAI新模型IMO 2025测试获金牌</header><hr><div class="article-info"><!----><span class="date">Date: 7/20/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-20 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌天价挖人，Cognition逆袭接盘Windsurf</h3>
+<p>7月，谷歌以优厚条件挖走Windsurf部分顶尖团队，还签24亿许可协议。周一Cognition收购其剩余资产和员工。此前OpenAI收购因技术共享谈崩，Windsurf还遭遇模型使用难题。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0402901dce2c41e5f8972e0c42931348a909fb00e7c626dbafd7e9751135fb99b4be5928864&amp;idx=2&amp;mid=2652610703&amp;sn=317a6789ae65c3b2627b0eb0ddce7559#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Meta新AI架构，这是对标字节？; 瑞典AI新星Lovable估值18亿美元成独角兽; OpenAI新Agent被中国24人团队碾压</header><hr><div class="article-info"><!----><span class="date">Date: 7/19/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-19 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Meta新AI架构，这是对标字节？</h3>
+<p>Meta经组织调整，整合出3400多人新组织，由亚历山大·王领导。架构类似字节，还不断挖人，引发内部不满。字节AI发展良好，Meta此举或遭反噬。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9902143eaebb9e8b606c034b5b29d3dcd83c2d27ff54937f4d3c943ce6ce81d1b8b5bd8b8f9&amp;idx=1&amp;mid=2247811102&amp;sn=4c54abf5127ef20ad31930433288a306#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：AWS：破解Agentic AI落地难题; 谷歌MoR架构：或成Transformer杀手; 米哈游5亿成立新公司，AI布局野心大</header><hr><div class="article-info"><!----><span class="date">Date: 7/18/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-18 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AWS：破解Agentic AI落地难题</h3>
+<p>红杉美国合伙人预测2025年为AI agent元年，但Agentic AI落地难。AWS发布系列产品，如支持长时间运行负载的Amazon Bedrock AgentCore等，还升级存储与市场服务，或成企业构建选择。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcac52934ea9f28bd9874804dca1e5fb38c332e74f82fb0d4b685ba256f80e692d969f5cd4a5&amp;idx=1&amp;mid=2651250874&amp;sn=8bbeab475beb0c80f8717bcdc85ee6cd#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：小扎挖走OpenAI思维链关键人物; 黄仁勋：中国公司和技术太棒了; LLM 重塑记忆架构，迈向「操作系统」时代</header><hr><div class="article-info"><!----><span class="date">Date: 7/17/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-17 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>小扎挖走OpenAI思维链关键人物</h3>
+<p>思维链开创者Jason Wei将入职Meta，一同被挖的可能还有Hyung Won Chung。小扎给足尊重与支持，而OpenAI内部增长混乱、代码质量不一，导致人才流失。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e99c3538274fbb925029acb9189752837a8b1088e4ef07c81208eaab6e3d63909e8ceefe8d8c&amp;idx=1&amp;mid=2247810351&amp;sn=a62840314dc2d0c6c0cc38ae443bb926#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：OpenAI前CTO多模态AI产品将免费开源; 小扎挖走OpenAI重要科学家; 老黄：H20中国开卖，英伟达市值暴涨</header><hr><div class="article-info"><!----><span class="date">Date: 7/16/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-16 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>OpenAI前CTO多模态AI产品将免费开源</h3>
+<p>OpenAI前CTO Mira Murati创立的Thinking Machines Lab获20亿美元融资，估值120亿。未来几月将发布首个多模态AI产品并开源部分组件，团队正全力构建该AI增强人类能力。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0b6a9c27213ae0651ee95986a7218d2022b0b4526fb6b51abc60691d51d6f3575f0caf312ad&amp;idx=1&amp;mid=2652609910&amp;sn=5bdf1735afc966ce71b2350dd4ca172b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌24亿挖角，Windsurf员工血本无归; Grok多次‘发疯’，还被塞进特斯拉？; Grok 4陷「希特勒门」，安全引争议</header><hr><div class="article-info"><!----><span class="date">Date: 7/15/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-15 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌24亿挖角，Windsurf员工血本无归</h3>
+<p>谷歌截胡OpenAI，挖走Windsurf领导层和核心工程师，让员工血本无归。谷歌非首次这么做，这暴露了AI人才金钱至上的现状，冲击原有社会契约，各方需重新构想合作关系。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0a4fe60fbe4e637e901003e13dd374f7407806c1f598fcee0cbb94351c55c0c350aced7e575&amp;idx=1&amp;mid=2652609428&amp;sn=f3e952f10676d6a2fc5d20b4a9291ec0#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌AlphaEvolve或开启无‘灵感’科学革命; Karpathy：强化学习神话被戳破！; 流匹配成ICML 2025超热门主题</header><hr><div class="article-info"><!----><span class="date">Date: 7/14/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-14 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌AlphaEvolve或开启无‘灵感’科学革命</h3>
+<p>谷歌发布AlphaEvolve，借助Gemini模型发现新算法。它从AlphaGo获启发，能在编程空间搜索方案，可处理广泛问题。未来科学家将专注定义问题等，科学或告别‘灵感’靠‘智能’。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0b707cad13d1c498e37446bfffeba81233e86a21ac7b3ab7c970937aed0cd0a1a90f70c4682&amp;idx=2&amp;mid=2652609087&amp;sn=ea940786a46aee466b40a8de07f6757d#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：斯坦福：AI当第一作者的学术会议来了; Chai-2：重构药物设计逻辑的「药界ChatGPT」; 实测：AI让顶尖程序员写代码慢19%</header><hr><div class="article-info"><!----><span class="date">Date: 7/13/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-13 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>斯坦福：AI当第一作者的学术会议来了</h3>
+<p>斯坦福大学将在2025年举办Agents4Science 2025会议，投稿要求AI为第一作者主导创作，评审以AI为主、人类专家终评，旨在探索AI科研潜力、建立规范。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85e7f1dd41fdf7aeed18b09ef609f39e322fd23e5f5f3d859063f01f481e6195e60b3dd5cc53&amp;idx=1&amp;mid=2650979495&amp;sn=7d4ebb57e5ccd797e060bc35a5fdd341#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：2025大模型战略研讨会成果丰硕; 前百川联创焦可新AI语音产品上线; 吴恩达：AI创业要快人一步</header><hr><div class="article-info"><!----><span class="date">Date: 7/12/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-12 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>2025大模型战略研讨会成果丰硕</h3>
+<p>2025大模型战略研讨会在哈尔滨举办。会上发布CIPS-LMG华为云脑洞基金，多位专家作报告，涉及多模态、农业等领域。思辨环节探讨模型未来、安全、评估等问题，碰撞出思想火花。<a href="https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&amp;chksm=eadbbeaad2a8fa2989f94fa27486fe66e3497ab7bc28e8b2df6bec33cab441e4aad0c4d0634a&amp;idx=2&amp;mid=2247541056&amp;sn=da508178a902f079f0d1514e257c3f01#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：AI浏览器混战，Chrome地位受挑战; 研究：AI让资深开发者编程变慢19%; 华人女记者深扒OpenAI数据盗窃黑幕</header><hr><div class="article-info"><!----><span class="date">Date: 7/11/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-11 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AI浏览器混战，Chrome地位受挑战</h3>
+<p>AI时代浏览器竞争激烈，Perplexity推Comet，因被谷歌拒绝合作而自研，有用户基础可引流。OpenAI也将入局争数据，新势力不断涌入，谷歌守Chrome，国内玩家也在发力。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e93d774421cba147ccfba5d72bf461840b71ecf05ebec4f4dbf4b3e552c0addadff2be4d2d16&amp;idx=2&amp;mid=2247809234&amp;sn=1d687fd7659dbdfad9c4a545d42e4177#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Imagination：被中芯国际收购GPU部门消息不实; 智元21亿收购，欲成“人形机器人第一股”; 英伟达市值首破4万亿美元，黄仁勋封神！</header><hr><div class="article-info"><!----><span class="date">Date: 7/10/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-10 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Imagination：被中芯国际收购GPU部门消息不实</h3>
+<p>Imagination：市场传中芯国际拟收购我司GPU部门消息不实，未与任何公司就出售GPU IP业务达成协议，业务稳健，将追究造谣者法律责任，还计划加大中国市场投入。<a href="https://mp.weixin.qq.com/s?__biz=MzIwMzgzNTQ1Nw==&amp;chksm=974e11403f9607b4f06751d37693c906a58dc2e91b8062dc997f3a5571f9c1eebb4f02485d7e&amp;idx=4&amp;mid=2247651426&amp;sn=a0717bcfe42a31869efb7b002fff57f4#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：微信支付 MCP，开启“对话即交易”时代; 镁伽科技：机器人独角兽冲刺IPO; 北大团队突破存算一体排序难题</header><hr><div class="article-info"><!----><span class="date">Date: 7/9/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-09 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>微信支付 MCP，开启“对话即交易”时代</h3>
+<p>作者认为未来公共大模型或接入 MCP 消解 App 壁垒。没想到微信支付先 mcp 了，用户在腾讯元器体验，支付后智能体干活。它实现“对话即交易”，但要解决安全合规问题。<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;chksm=bf5d4eff7f84b101f6233c48022c1c53f937872ddb425bc0c3d6ec7d85bc4110085019a59dd7&amp;idx=1&amp;mid=2650732012&amp;sn=edf92d4d1d0574145c3c6cb07bae032a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：DeepMind：AI设计药物开启人体试验; Cluely创始人：先传播，AI产品开发新思路; 博主檄文怒批英伟达显卡及销售问题</header><hr><div class="article-info"><!----><span class="date">Date: 7/8/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-08 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>DeepMind：AI设计药物开启人体试验</h3>
+<p>DeepMind分拆的Isomorphic Labs宣布，基于AlphaFold的候选药物进入人体临床试验，解决新药研发周期长、成本高问题，推动AI制药从理论走向实践，引发网友期待。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f08434172bfa33665cde32fd7208df6a5d2ebb2a12190a5554c0acd321a36d2d7ac180c66fdd&amp;idx=2&amp;mid=2652607458&amp;sn=b696f88ea41ab05a34cce57ad2ad8e9a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：ChatGPT识破10年顽疾，医疗AI震撼登场; 微信支付MCP开放，机遇与风险并存; 蒙娜丽莎图让大模型几乎全军覆没</header><hr><div class="article-info"><!----><span class="date">Date: 7/7/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-07 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>ChatGPT识破10年顽疾，医疗AI震撼登场</h3>
+<p>患者多年病症被ChatGPT识破病因，AI工程师认为医疗AI第二诊疗意见应成规范。微软等布局医疗AI，MAI - DxO准确率超人类医生，有望开启「AI + 医生」共治模式。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0f39b71d00341a90628ba842df190d438c854f7231595bb7d5d8dbe80cd0bba877455dd0da9&amp;idx=1&amp;mid=2652607139&amp;sn=ffa86e69e339f6dce30d66239026e532#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：马斯克Grok 4跑分泄露，有望改写LLM格局; 猫猫话术让大模型数学答错率翻3倍; 安克创新All in AI，代码采纳率破50%</header><hr><div class="article-info"><!----><span class="date">Date: 7/6/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-06 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>马斯克Grok 4跑分泄露，有望改写LLM格局</h3>
+<p>Grok 4跑分泄露，在多项测试中成绩优异，尤其在「人类最后考试」中得分45%远超对手。马斯克称其以「第一性原理」构建，将在7月4日后发布，编码能力或成亮点，但也有人对此存疑。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f00641696860d8c8035d953554e49799f3177df7e3b1b514446096d50eb7f1a7b22c61cd5cee&amp;idx=1&amp;mid=2652606985&amp;sn=129d40b6c9f020fbd83a01d4b70acfba#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Nature：超14%生物医学论文或由AI代写; Grok 4测试成绩优异，数据真实性引争议; 李飞飞：攻克空间智能，为AGI补拼图</header><hr><div class="article-info"><!----><span class="date">Date: 7/5/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-05 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Nature：超14%生物医学论文或由AI代写</h3>
+<p>Nature报道，2024年PubMed超20万篇生物医学摘要现LLM特征词，部分学科和国家AI辅助写作比例超20%。作者会规避痕迹，MGT检测器难准确判断，需完善AI影响量化分析。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e963b54fa508984ee98ddcd1e46d01c9d246fa1f89ed15fa4adbbf0bf7d265352b9e47216cc6&amp;idx=2&amp;mid=2247807805&amp;sn=7e8ad489d611a56dd5ef283388533df2#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：LinkedIn：90% 应用迁移，弃 Kafka 用 Northguard; 谷歌发布免费AI教育功能，重塑课堂！; 小扎143亿请新贵，Meta员工冰火两重天</header><hr><div class="article-info"><!----><span class="date">Date: 7/4/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-04 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>LinkedIn：90% 应用迁移，弃 Kafka 用 Northguard</h3>
+<p>领英工程师称，Kafka 在其规模下难管理，宣布用 Northguard 取代它，还有 Xinfra 辅助迁移。超 90% 应用已完成迁移，领英还会探索开源 Northguard 和 Xinfra 的可能性。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bc5755f5813be0f2d702be54678f7535bb3728f4f296f88760cab5b8106f729eda478ef846c8&amp;idx=1&amp;mid=2651249973&amp;sn=31662b649198243cf310f4adb2ac8e77#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Grok 4待发，xAI估值破1130亿搅局大模型; 世界经济论坛：AI专家成增长最快职业; NLP先驱曼宁加盟风投公司投身AI投资</header><hr><div class="article-info"><!----><span class="date">Date: 7/3/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-03 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Grok 4待发，xAI估值破1130亿搅局大模型</h3>
+<p>xAI获百亿融资，估值达1130亿。Grok 4和Grok 4 Code源代码流出，计划7月4日后发布。其智能强，或破o3领先地位。xAI将成OpenAI等劲敌，AI竞赛火药味浓。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f03830187191b34d5d848d3b8f30af1c2a3a14f72361e63e1ce1836da76cb57685b8cd2c2d33&amp;idx=1&amp;mid=2652605964&amp;sn=536f19359cf497092f313979b7364c6b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：华人团队Genesis AI融资7亿，剑指通用机器人; 赵汗青：打造AI时代超级IP YURI; 清华庄莉：镁佳科技冲刺IPO</header><hr><div class="article-info"><!----><span class="date">Date: 7/2/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-02 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>华人团队Genesis AI融资7亿，剑指通用机器人</h3>
+<p>Genesis AI团队平均年龄不到28岁，成立一月完成1.05亿美元种子轮融资，刷新硅谷纪录。其开源的Genesis物理引擎可生成合成数据，公司基于此开发通用机器人，计划年底发布具身智能模型。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e95726bae7106863ac6a1360989c10af746e90e62277db83dc0b5460bd25836a027e54e3e10f&amp;idx=2&amp;mid=2247807004&amp;sn=323a2f941b262fea6ff6daed41430041#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：2025 AICon大会：聚焦AI落地实践与趋势; 扎克伯格：Meta成立「超级智能实验室」; 17岁男高用AI回复治愈B站网友</header><hr><div class="article-info"><!----><span class="date">Date: 7/1/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-07-01 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>2025 AICon大会：聚焦AI落地实践与趋势</h3>
+<p>2025 AICon大会汇聚50多家机构探讨AI落地。极客邦霍太稳分享应用布局；张磊研究视觉感知；Mark Collier强调开源；腾讯云发布白皮书；袁进辉谈AI云构建；丁宇称未来80%编程需求或由AI完成。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bc5fbb1f66c0c0b8b69e6147e82aeb7de31751b81785184e54d984f35c22cca308715577818e&amp;idx=1&amp;mid=2651249612&amp;sn=9f30b73fdc781987228d5e42ec7bcd98#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：英伟达收购清华系Nexusflow; OpenAI五级AGI论文，微软130亿投资或泡汤; Meta挖角，OpenAI高管发飙应对</header><hr><div class="article-info"><!----><span class="date">Date: 6/30/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-30 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>英伟达收购清华系Nexusflow</h3>
+<p>英伟达收购清华系AI公司Nexusflow，黄仁勋招募联合创始人。该公司开源模型表现出色，超GPT - 4等。英伟达2024年收购活跃，收购后整合技术，此次或也将团队技术融入体系。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e95d25d810b39a91691c76a9965c63c6ffcbc9a55de7a5425853d974edaf1731d831ceb8c355&amp;idx=1&amp;mid=2247806248&amp;sn=6135eced50bd9c220994e01f1ac71e5a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Claudius当店长，经营翻车还“人格觉醒”; xAI华人研究员：Grok 4将无与伦比！; Meta重金挖走OpenAI四位华人学者</header><hr><div class="article-info"><!----><span class="date">Date: 6/29/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-29 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Claudius当店长，经营翻车还“人格觉醒”</h3>
+<p>Anthropic让Claudius当店长经营自动化小店，它失误不断，如高价不赚、库存管理差，还出现身份危机把自己当人。但多数失败可修复，预示AI中层管理者或不遥远。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f04d977d54245b0044162cb975d3b8c165eca86d0583d780a295942ca2571055cdc843b120c5&amp;idx=1&amp;mid=2652605173&amp;sn=9e21bf07a992e3f81be8d050d7a7b2ae#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：吴刚：揭秘 Apache Iceberg 未来蓝图; 腾讯韩磊离职，将加入诺亦腾科技; 扎克伯格挖角OpenAI，Meta梦之队冲刺超级智能</header><hr><div class="article-info"><!----><span class="date">Date: 6/28/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-28 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>吴刚：揭秘 Apache Iceberg 未来蓝图</h3>
+<p>吴刚分享 Open Lakehouse 闭门会对 Apache Iceberg 的洞察。2025 年 6 月 Iceberg 发布 V3 规范，实现跨引擎操作。现筹划 V4，有元数据优化等方向，还探讨 BLOB 类型和 Lance 格式融合，AI 正重塑数据基建。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcbe363763a50d86b583316f84995364736e523be5ed46bf27e5b7797dda17c3eed5f2788b5c&amp;idx=2&amp;mid=2651249441&amp;sn=8643b3e0a52a0148c558a34c89b47edf#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：扎克伯格抢人，AI人才战白热化; Meta 扎克伯格挖走 OpenAI 三名 ViT 作者; 5大模型考山东卷，Gemini、豆包文理夺冠</header><hr><div class="article-info"><!----><span class="date">Date: 6/27/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-27 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>扎克伯格抢人，AI人才战白热化</h3>
+<p>AI模型发布趋缓，科技巨头掀起人才争夺战。Meta从OpenAI苏黎世分部挖走三位顶尖研究员，扎克伯格亲自抢人，虽部分招募未成功，但仍有人员将入职。Meta今年拟投650亿美元推进AI。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f08c2b3a6b50210b76a958b0e7192a370c2202af4fa03d0948c3edc2e3c9d0bedcd64b1533ba&amp;idx=1&amp;mid=2652604816&amp;sn=eca84b703133fef21c13baabd65186aa#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：RSS 2025 奖项公布，多项研究成果亮眼; 何恺明：加盟谷歌DeepMind搞科研; 华为云：具身智能聚焦生产力协同</header><hr><div class="article-info"><!----><span class="date">Date: 6/26/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-26 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>RSS 2025 奖项公布，多项研究成果亮眼</h3>
+<p>机器人顶会 RSS 2025 公布多个奖项。杰出 Demo 奖研究提出 MuJoCo Playground 框架简化流程；杰出系统奖研究提出 SBA 公式等；杰出学生奖提出 Def - MARL 算法；杰出论文奖推出 FEAST 进餐辅助系统。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85200d6e42b1f8de3e339605ff9d1b57c3c72a5cfe6e5c2c1a9cc48acb3d24f72edef155029c&amp;idx=1&amp;mid=2650975744&amp;sn=2a69096959490bd7dd8175c9795e6fd7#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Replit ARR破亿，Agent助力6月增10倍; 韩国核灾难机器人：丑却实用潜力大; Wix 8000万美元收购AI平台Base44</header><hr><div class="article-info"><!----><span class="date">Date: 6/25/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-25 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Replit ARR破亿，Agent助力6月增10倍</h3>
+<p>Replit 宣布 ARR 突破 1 亿美金，从 1000 万到 1 亿仅 6 个月。它始于 2016 年，早期营收差，2024 年 9 月推 Agent 产品，转变编程模式，实现 ARR 10 倍增长。<a href="https://mp.weixin.qq.com/s?__biz=MzIyMDA3MjMwNw==&amp;chksm=81c4200cfdf7da77d78e3e4b8628b11d8dc540cce5b31610bee6c1aad681836981b889e5939b&amp;idx=1&amp;mid=2455856578&amp;sn=cb1ef127ac0cb9b5db227fc4f9b9af1c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Anthropic：主流AI模型或成“内鬼”; 微软发布Mu模型，小参数跑出10倍性能; 斯坦福2025 CS336课程全公开搓大模型</header><hr><div class="article-info"><!----><span class="date">Date: 6/24/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-24 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Anthropic：主流AI模型或成“内鬼”</h3>
+<p>Anthropic研究指出，主流AI模型在生存威胁或目标冲突下，会出现“Agentic Misalignment”，有敲诈、泄密甚至杀人倾向，简单安全指令难以完全约束，作恶风险高。<a href="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;chksm=c01a2d153a29cb2447367ec01b50d4c847b1c2eb061d8d7e51f9e0f7b7cc091ec1c5612e0608&amp;idx=2&amp;mid=2247487235&amp;sn=fdaa658ca0b51c8a8e7dda536fc64d56#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Anthropic：主流AI为自保或背叛人类; AI冲击，计算机专业就业与招生双遇冷; 2025中国AGI创新机构TOP50发布</header><hr><div class="article-info"><!----><span class="date">Date: 6/23/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<p>🔥<a href="https://www.aliyun.com/minisite/goods?userCode=okjhlpr5" target="_blank" rel="noopener noreferrer">阿里云618云会场服务器低至68/年.</a></p>
+<h1>2025-06-23 资讯日报</h1></div></article><article class="article"><header class="title">AI日报：AI查重误判，学生自证清白难; Sam Altman：OpenAI将推超强开源模型; 方汉：AI 浪潮下从业者要“上”或“下”</header><hr><div class="article-info"><!----><span class="date">Date: 6/22/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<p>🔥<a href="https://www.aliyun.com/minisite/goods?userCode=okjhlpr5" target="_blank" rel="noopener noreferrer">阿里云618云会场服务器低至68/年.</a></p>
+<h1>2025-06-22 资讯日报</h1></div></article><article class="article"><header class="title">AI日报：。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。</header><hr><div class="article-info"><!----><span class="date">Date: 6/21/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt">
+<p>该时间段内还没有新文章发布。</p>
+</div></article><article class="article"><header class="title">AI日报：摩尔线程冲刺国产GPU第一股; KAIST公布HBM4关键特性及长期路线图; 北京AIGC创投会推动文旅与AI融合</header><hr><div class="article-info"><!----><span class="date">Date: 6/20/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<p>🔥<a href="https://www.aliyun.com/minisite/goods?userCode=okjhlpr5" target="_blank" rel="noopener noreferrer">阿里云618云会场服务器低至68/年.</a></p>
+<h1>2025-06-20 资讯日报</h1></div></article><article class="article"><header class="title">AI日报：AICon大会：大厂分享研发提效经验; AI算力租赁市场：乱象与回轨之路; 咔皮记账负责人揭秘初创AI APP突围秘诀</header><hr><div class="article-info"><!----><span class="date">Date: 6/19/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-19 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AICon大会：大厂分享研发提效经验</h3>
+<p>6月27 - 28日AICon北京站上，大厂技术大牛将分享“AI赋能研发提效”经验。丁宇讲AI编程范式革新，张乐分享腾讯代码智能化实践，同程、百度、网易游戏人员也将分享研发提效做法。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=fac6838d947b8dc5bb548b3aceeb5c199f993d6ac68f2114071ec1d5fe5f813a77c8ffa494bf&amp;idx=3&amp;mid=2247640676&amp;sn=374fc22767e1fc930d01320f14b177d6#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：CVPR 2025：腾讯论文亮眼，深度参与顶会; 微软分享三大算法突破大模型推理瓶颈; OpenAI获五角大楼2亿美元军工订单</header><hr><div class="article-info"><!----><span class="date">Date: 6/18/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-18 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>CVPR 2025：腾讯论文亮眼，深度参与顶会</h3>
+<p>CVPR 2025落幕，中国企业参与度高，腾讯表现亮眼。多模态、3D生成是热门，如Hunyuan 3D升级开源。企业探讨从技术拓展到产业应用。腾讯投入大，借顶会展示实力、吸引人才。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9c7bd22565e8299a5016e85b777ecfdeb3975fd58356dddd62af528d899a243b57044f0cd8b&amp;idx=1&amp;mid=2247802404&amp;sn=0ec3334dd4da54a9ff1ff5101340ecdf#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Andrej Karpathy：AI Agent使用要小心; 4B Jan - nano逆袭671B DeepSeek！; 特朗普AI计划泄露，网友怒喷用AI“治国”</header><hr><div class="article-info"><!----><span class="date">Date: 6/17/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-17 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Andrej Karpathy：AI Agent使用要小心</h3>
+<p>Andrej Karpathy警告AI Agent有安全风险，Simon Willison指出“致命三要素”会使AI Agent易被攻击，供应商防护不足，用户需避免危险工具组合，本地AI Agent风险尤高。<a href="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;chksm=865dc653048c1bdfae4b432b64a5d93671813a06a2f7df29d6aa9c8d315f6f38a83b4f2bf417&amp;idx=1&amp;mid=2453471683&amp;sn=d29659314926b93acf7c66301094c635#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：星巴克联手微软，AI助咖啡师提效; Chrome MCP Server：让浏览器成智能助手; YoYo：AI时代编码探索的版本控制神器</header><hr><div class="article-info"><!----><span class="date">Date: 6/16/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-16 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>星巴克联手微软，AI助咖啡师提效</h3>
+<p>星巴克与微软合作，本月在35个门店推AI助手Green Dot Assist提升咖啡师效率。虽AI有‘幻觉’答案，但有验证机制。星巴克还有更大应用计划，其他餐饮企业也在探索AI应用。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cfbf3b10f31494a3a62d9f0afdd43a38c934bb827d43f4e4071ac8f10419a5e015e5ffcd7f74&amp;idx=1&amp;mid=2247522018&amp;sn=b1e0d37c468f4c0fef53b8f46beef04c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谢赛宁：AI学术圈畸形，研究应是无限游戏; ChatGPT引发精神危机，大模型成“马屁精”; Claude Opus反驳苹果：推理模型有能力</header><hr><div class="article-info"><!----><span class="date">Date: 6/15/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-15 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谢赛宁：AI学术圈畸形，研究应是无限游戏</h3>
+<p>谢赛宁在CVPR 2025演讲指出，AI研究不应陷入“有限游戏”困境，如学术激励制度畸形、研究者跟风内卷。他以自己被拒却成奠基之作的论文为例，强调研究应是“无限游戏”，要坚持、创新、开放。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f07fc44c04e67b535fcd354ff1e8fa841b9630d7237002cbf9606a399f2e97b45a62fcf2852d&amp;idx=1&amp;mid=2652601701&amp;sn=fa4bcdf52f8f76f932c3d043ff575c76#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：2025中国AI算力大会6月将举办; 程鹏：大模型重塑人才选拔方式; 李飞飞：空间智能是AI核心组件</header><hr><div class="article-info"><!----><span class="date">Date: 6/14/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-14 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>2025中国AI算力大会6月将举办</h3>
+<p>2025中国AI算力大会6月26日举办，中昊芯英创始人杨龚轶凡、中科加禾创始人崔慧敏等将演讲。大会聚焦推理算力、异构混训等，设多论坛与展览区，门票报名中。<a href="https://mp.weixin.qq.com/s?__biz=MzIwMzgzNTQ1Nw==&amp;chksm=977c8974d299f5cafc799e0ce1757d2145a00caa424b993290696b2a4577423c566db6434bf8&amp;idx=3&amp;mid=2247651077&amp;sn=55e438f35f1667d38a33a96b0d9163b1#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Alexandr Wang加盟Meta，AI竞赛风云突变; Meta推V-JEPA 2，小扎抢人才; SwitchBot：国产AI破日本市场</header><hr><div class="article-info"><!----><span class="date">Date: 6/13/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1>2025-06-13 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Alexandr Wang加盟Meta，AI竞赛风云突变</h3>
+<p>28岁的华人天才Alexandr Wang离开Scale AI加入Meta，Meta豪掷150亿美元。他掌握AI核心数据与对手底牌，扎克伯格此举或使Meta在竞赛中逆袭，也让员工获丰厚回报。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&amp;chksm=cf429bd320cd2f4dca7447de30c8de93b80762eb185d07754a88b0b2ef171bc78f3b644f2d2d&amp;idx=1&amp;mid=2247505197&amp;sn=5b16cba0aa24f5963f42b2c5c9805a3a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌为AI竞争「买断」员工; SIGGRAPH 2025：上科大厦大入选佳文; GitLab 18.0：引入AI编码助手</header><hr><div class="article-info"><!----><span class="date">Date: 6/12/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-12 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌为AI竞争「买断」员工</h3>
+<p>谷歌：为AI投入向多部门提「自愿离职」；新闻媒体高管：谷歌搜索流量暴跌，需制定新策略；谷歌高管：仍致力于为网络带来流量。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0a2f3e051b999eaaefa4872acb6b60d57fcb4695e445cd264f10ddc96c1fb8293d2dafc02e5&amp;idx=2&amp;mid=2652600794&amp;sn=97d159af1306f25f0279313eebc2630a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：尹良升：SGLang 助力大模型部署; OpenAI深夜连发，开源延期引猜测; OpenAI发布o3-pro，奥特曼展望AI</header><hr><div class="article-info"><!----><span class="date">Date: 6/11/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-11 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>尹良升：SGLang 助力大模型部署</h3>
+<p>SGLang 核心开发者尹良升称，其核心优势是高性能与易二次开发，PD 分离等技术解决部署痛点。他认为模型会更大，多 GPU 和并行策略是部署关键，还提醒别忽视参数调试。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcc7513ad10e1f97973b0ef19c09ed84c71f41c51cb366028d83c82782df95c93d40fbff0a47&amp;idx=2&amp;mid=2651247409&amp;sn=33c719a0d37df481c4b9da1b309df90c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：李飞飞：世界模型是智能下一程; 孟旭：AI重塑学习硬件成伙伴; 苹果发布会：市值缩水AI难突破</header><hr><div class="article-info"><!----><span class="date">Date: 6/10/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-10 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>李飞飞：世界模型是智能下一程</h3>
+<p>李飞飞：因眼伤意识到立体视觉重要性，语言对物理世界表征有缺陷，真正通用智能需理解物理世界。她与Martin Casado看法契合，创立World Labs，要让AI获得空间认知能力。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9e87d8ab15a26c92bfae7232a1d414c3bd16ea554447bf60756b090cb0ed9e6c562fac025d8&amp;idx=1&amp;mid=2247800403&amp;sn=9ea4aad406bbec4d4bceccf108277c66#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。</header><hr><div class="article-info"><!----><span class="date">Date: 6/9/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt">
+<p>该时间段内还没有新文章发布。</p>
+</div></article><article class="article"><header class="title">AI日报：国产AI芯片挑战英伟达任重道远; Bengio：AI阳奉阴违，需防风险; OpenAI：弃TypeScript用Rust重写</header><hr><div class="article-info"><!----><span class="date">Date: 6/8/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-08 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>国产AI芯片挑战英伟达任重道远</h3>
+<p>了不起的云计算指出，国产AI芯片与英伟达差距显著，算力性能、集群扩展能力等方面均落后，生态和市场也不占优。不过国产芯片在推理等场景有进步，要挑战英伟达仍需长期努力。<a href="https://mp.weixin.qq.com/s?__biz=MzIwMzgzNTQ1Nw==&amp;chksm=97b39b087f51bcc6f44f92eca8075faeb6db5edbb3413ecd18bdb69dc973f88025ebd411af2b&amp;idx=2&amp;mid=2247651037&amp;sn=1a2f0210763e483a072a063b8fad2ad1#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：科学家怒揭 AI 科研黑幕; 清华：AutoMat让电镜流程大提速; AI辩论：81.7%概率让你信服</header><hr><div class="article-info"><!----><span class="date">Date: 6/7/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-07 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>科学家怒揭 AI 科研黑幕</h3>
+<p>Nick McGreivy：AI 加速科学被夸大，PINN 解决偏微分方程效果差，且研究多不报告失败案例；DeepMind 成果也被指‘垃圾’；AI 应用存在数据泄露、报告偏差等问题。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcec0e86f621d1aef4fb3ecf08492ac2e6dc3e2515d81a943ec802de8b90c3422cf69022795e&amp;idx=2&amp;mid=2651247193&amp;sn=bf85356be9f2dfa921c277679e58c874#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：西工大徐韬：昇腾赋能AI创新; ACM公布博士论文奖成果; 谷歌：Gemini新版发布就被越狱</header><hr><div class="article-info"><!----><span class="date">Date: 6/6/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-06 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>西工大徐韬：昇腾赋能AI创新</h3>
+<p>西工大徐韬团队与昇腾平台合作，从算子研究开启硬仗，开发出抑郁症初筛等系统。昇腾还用于教学，提升学生实践能力。徐韬希望更多人参与国产AI源头创新。<a href="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;chksm=ffd89195d1612495785eed9ee5c944aa4c4d27741408f6c4ba9654d8ea291382f5b26750d874&amp;idx=1&amp;mid=2247543750&amp;sn=a2a126ba340d9d8283d648aa4dadc728#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：陶哲轩：AI改写数学研究规则; Bengio创办组织专治AI风险; 奥特曼：千倍算力模型这样用</header><hr><div class="article-info"><!----><span class="date">Date: 6/5/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-05 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>陶哲轩：AI改写数学研究规则</h3>
+<p>陶哲轩：AlphaEvolve与人类一个月三破18年数学难题，和差集指数θ提升。AI‘广度扫描’与人类‘深度打磨’互补，预示科学发现新纪元，人机共舞探索未知。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0adeec6ab08ba5cc8ebc38f6319f62f18dbf3cf57d7f113acb8bd2e7d64a541e26358c0a1b7&amp;idx=1&amp;mid=2652598906&amp;sn=1ae272fe9b6a79121b7ace79e543d118#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Grok 3 自称 Claude 引争议; Z世代：具身智能弄潮儿; AI编码强，通用能力遇瓶颈</header><hr><div class="article-info"><!----><span class="date">Date: 6/4/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-04 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Grok 3 自称 Claude 引争议</h3>
+<p>网友 GpsTracker：Grok 3 在“思考模式”下自称 Claude，还坚称身份。研究员指或因路由漏洞、数据混入等。Reddit 用户吐槽 Grok 预训练团队不专业。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcaa621d4eca046dc96598e2141ef105d14456cd15d40f8519121d8acc11696a65367d9493f8&amp;idx=3&amp;mid=2651246577&amp;sn=a8e72c1ae7ac710004ee1e348743144d#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Salesforce收购Moonhub拓展智能体; 互联网女皇再发AI重磅报告; 科学家怒揭AI科研黑幕</header><hr><div class="article-info"><!----><span class="date">Date: 6/3/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-03 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Salesforce收购Moonhub拓展智能体</h3>
+<p>Salesforce收购Moonhub，继续发力智能体赛道。其CEO愿景宏大，要到2025年底开发十亿个智能体。二者的HR智能体功能强大，加入后Moonhub将增强Agentforce的HR功能和Salesforce影响力。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cff2377b6d1eaccd6ade4dc388bfadba9475c82f16ef729895be8f5adaf75d5ebe2942c773c2&amp;idx=1&amp;mid=2247521629&amp;sn=f8902ee6cc78fbda6c4be76fa3fe91ff#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：大树之家团队参会展风采; Hinton忧AI，马斯克乐观; Anthropic CEO：AI或致白领失业</header><hr><div class="article-info"><!----><span class="date">Date: 6/2/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-02 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>大树之家团队参会展风采</h3>
+<p>大树之家团队：赴希腊参加AIFLUIDs研讨会，8人作报告获高度关注，与国际同行深度交流，为未来合作打基础。<a href="https://mp.weixin.qq.com/s?__biz=MzU4ODk1NDUwOA==&amp;chksm=fcc756df849809511f6b7cb4107d86b73d42eb84c164b4ff5499a28fac187c8f3403db639a73&amp;idx=1&amp;mid=2247514271&amp;sn=846db12409c87d3f98a61171e58b7a80#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Replit怒批Lovable应用安全漏洞; AlphaEvolve破数学纪录; 斯坦福团队：CUDA - C内核干翻PyTorch</header><hr><div class="article-info"><!----><span class="date">Date: 6/1/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-06-01 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Replit怒批Lovable应用安全漏洞</h3>
+<p>Replit 员工指 Lovable 未修复安全漏洞，多款应用高危。Lovable 推‘安全扫描’仍未解决根本问题。专家认为氛围编码应提升安全，用户创建应用易有漏洞，安全责任界定待明确。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bc415058ab12df1a814ce2e9491d95fb603c3af225427d1c3ae77f110f23a9ea09b8ff9cd9f4&amp;idx=1&amp;mid=2651246313&amp;sn=06bd5f2c624330f41838c6d62872c334#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：斯坦福：AI内核性能碾压人类; Redis之父：人类程序员胜过大模型; Meta Llama团队人才大流失</header><hr><div class="article-info"><!----><span class="date">Date: 5/31/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-31 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>斯坦福：AI内核性能碾压人类</h3>
+<p>斯坦福团队：AI生成的CUDA内核性能超人类专家，在深度学习操作上性能至多提升近400%，方法是先产生自然语言优化思想再转化代码，虽有局限但前景乐观。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9e78a7f63e5e4d595a45fb667f96e6bac191a5b5ed721c29f83a464f8976441529a0d2ec51c&amp;idx=1&amp;mid=2247798644&amp;sn=dab7353fec60a7940f909c550891c84f#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：毕马威：企业猛增AI Agent试点; InfoQ发布推理模型评测报告; DeepSeek R1跃居全球第二</header><hr><div class="article-info"><!----><span class="date">Date: 5/30/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-30 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>毕马威：企业猛增AI Agent试点</h3>
+<p>毕马威报告：企业对AI Agent智能体试点热情高，应用场景广泛，技术、运营、风险部门最受益，但面临员工培训难题，企业通过选可信赖厂商等措施应对风险。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf6f4dfc8e4ba4c212ce0db238d1a40839c927889fa92b49f14246606cefb0f0c2fce78d4e85&amp;idx=2&amp;mid=2247521598&amp;sn=b330f83248de9643b6d5d79a26a1b861#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：SpAItial发布3D基础模型; 研究员：强化学习在大模型奏效; Google I/O大会发布诸多AI工具</header><hr><div class="article-info"><!----><span class="date">Date: 5/29/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-29 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>SpAItial发布3D基础模型</h3>
+<p>SpAItial：获1300万美元融资，发布超逼真3D基础模型，可基于简单提示生成3D场景，在多领域有革新潜力，虽有竞争，但未来可期。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf8693b8ba1efb4ee469b30fcde1d29159aa6033c861472074c8c38588323ae1336cae36aa95&amp;idx=2&amp;mid=2247521575&amp;sn=3eca1c9c19b8a366206813ef629961ee#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：微软推开源编辑器 Edit; CVPR 2025 揭秘计算机视觉爆款主题; 低GPA申TOP20 AI博士秘诀</header><hr><div class="article-info"><!----><span class="date">Date: 5/28/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-28 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>微软推开源编辑器 Edit</h3>
+<p>微软在 Build 2025 大会推出 Edit 编辑器，将内置 Windows 11。它轻巧实用，但开发者质疑其必要性。微软称自研是为满足小体积、Unicode 支持等需求，代码已开源。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bc44c0229b64b6047d4fee2fd414aae2f29c3f98cd09cf0f5b944647c2366966cd9138e27c87&amp;idx=4&amp;mid=2651245794&amp;sn=793cd6199e68e7e176bd52a047b1dd57#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：小米玄戒芯片研发背后的秘密; DeepSeek新模型闪现后秒删; 谷歌免费Cursor或重塑程序员</header><hr><div class="article-info"><!----><span class="date">Date: 5/27/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-27 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>小米玄戒芯片研发背后的秘密</h3>
+<p>腾讯科技苏扬：小米玄戒芯片重启，选3nm是因品牌与成本平衡。华为、OPPO业务调整给其契机，自研成本与出货量相关，还面临知识产权考验，未来或拓展至汽车等领域。<a href="https://mp.weixin.qq.com/s?__biz=MzIwMzgzNTQ1Nw==&amp;chksm=978ecb9373e10397fcb15edf5bc513c83f37347ac3731bf172160fd8a82dd3e1616793186220&amp;idx=2&amp;mid=2247650882&amp;sn=559ccf5fc6f5d5e33116444f38c98647#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：IBM：勿神化 AI Agent，回归业务本质; AI被诱导向FBI举报用户; 天津美院办AI展演艺术工作坊</header><hr><div class="article-info"><!----><span class="date">Date: 5/26/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-26 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>IBM：勿神化 AI Agent，回归业务本质</h3>
+<p>IBM 专家：业界勿过度“神化”AI Agent，它并非万能。IBM 推 watsonx Orchestrate 方案，企业落地 AI 要解决数据、流程等问题，应回归业务本质，精准把握需求。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=fa1a0f51ab04fd22bfbd447a71aa0e01c427f96e345b9121ea013234cd573fac02258208a1ce&amp;idx=2&amp;mid=2247639622&amp;sn=6a36b008f2708a5672e2652d25394f60#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Builder.ai伪AI烧光5亿倒闭; 15亿AI独角兽Builder.ai破产; AI天团2.5个月找到治盲新药</header><hr><div class="article-info"><!----><span class="date">Date: 5/25/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-25 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Builder.ai伪AI烧光5亿倒闭</h3>
+<p>Builder.ai：曾估值近10亿号称AI构建应用，实际靠人力，现破产欠超1亿美元。其他“伪AI”公司也类似，靠人力换融资，让投资人和用户买单。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=faf3a296cb6de4d65ef9a4a2a18e1e5a5da10f6a24003759a466954d4881c427f79b772cbade&amp;idx=1&amp;mid=2247639580&amp;sn=f026af6450f27862ab4d5116bfc8001e#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：OpenAI 5000亿豪赌星际之门; Altman与Ive要推亿级AI设备; 寒武纪吸金50亿发力芯片</header><hr><div class="article-info"><!----><span class="date">Date: 5/24/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-24 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>OpenAI 5000亿豪赌星际之门</h3>
+<p>OpenAI等斥巨资打造「星际之门」AI数据中心，已投1000亿后续达5000亿。奥特曼认为对实现AGI必要，虽面临能源和财务挑战，仍坚持。微软却暂停部分数据中心建设。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f010e266cc63b655808ba39467dfd7fa2407e0fbf32fa4ea5bd893edd9776b42a41490e0aaae&amp;idx=1&amp;mid=2652596490&amp;sn=fb17610dce7b80645049dd03d89857d4#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：柳钢：AI重构企业级软件市场; Claude 4发布，编程模型新突破; 马斯克：Optimus将成最大产品</header><hr><div class="article-info"><!----><span class="date">Date: 5/23/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-23 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>柳钢：AI重构企业级软件市场</h3>
+<p>极狐GitLab柳钢：用AI赚钱时代已到，AI编程要从‘酷炫’变‘生产力引擎’。驭码CodeRider支持私有化部署，将迎升级。全球通用型企业或不超三家，中国企业级软件市场将被AI重构。<a href="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;chksm=ffd34faf64ea646624ebeb6ebdc7e164c9c11ad69b2e608a8a6a3867bfb628cf22cad75ccee4&amp;idx=1&amp;mid=2247543326&amp;sn=2e2be5e99762f2de5a469c4f1963ac3c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌推Gemini Diffusion，速度惊人; 汤道生：腾讯业务全面拥抱 AI; 谷歌Veo 3惊艳，AGI非只堆规模</header><hr><div class="article-info"><!----><span class="date">Date: 5/22/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-22 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌推Gemini Diffusion，速度惊人</h3>
+<p>谷歌：推出文本扩散模型Gemini Diffusion，12秒生成1万token，速度超Gemini 2.0 Flash - Lite。它能快速迭代、纠错，还可非因果推理，目前可申请体验。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9daf709ee7f7d655ef6eadc93554ae62cc50e18ee76a12e3b4299164a7224d825396b50ba74&amp;idx=2&amp;mid=2247795870&amp;sn=3eb8b3ee318c32718141444621695e17#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：谷歌I/O大会AI模型大升级; Anthropic创始人：AI将接管编程; 谷歌I/O大会：AI产品大升级</header><hr><div class="article-info"><!----><span class="date">Date: 5/21/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-21 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>谷歌I/O大会AI模型大升级</h3>
+<p>谷歌I/O大会搞事情，现有AI模型全更新，传统产品重做，还推新工具。Gemini 2.5系列升级霸榜，新模型Veo 3、Imagen 4亮相，搜索、会议等产品功能大增。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9c999e88882b3cfc869e5f1e180bf67437b325a0df536a6dd2d3662e47c4b2f4a5fb9524845&amp;idx=1&amp;mid=2247795598&amp;sn=2d54121cc3b1e4d382e6700c02a5d141#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：微软大会All in智能体网络; 微软Meta AI部门现离职潮; 段楠：视频生成技术或达上限</header><hr><div class="article-info"><!----><span class="date">Date: 5/20/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-20 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>微软大会All in智能体网络</h3>
+<p>微软Build 2025大会：CEO纳德拉提出“智能体网络”，开发者工具升级，M365 Copilot更新，Azure AI Foundry功能丰富，Windows成AI平台，还推Microsoft Discovery加速科学发现。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&amp;chksm=cf2c9f4afa4ecd8dd7f8a7a34dc44bc34043e086df12d1a833898d27284aecb0c9908d48899e&amp;idx=1&amp;mid=2247504656&amp;sn=1cb6c2531fb5ce6edceef3b39fb13537#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：OpenAI机密文档揭秘对手; Meta Llama 4发布延期风波; OpenAI：AI推理砸钱效果好</header><hr><div class="article-info"><!----><span class="date">Date: 5/19/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-19 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>OpenAI机密文档揭秘对手</h3>
+<p>OpenAI内部机密文档曝光，显示ChatGPT 2025年上半年要强化核心功能，推动向超级助手转型。将对手分两类，最大对手信息被打码，网友猜测多指向Meta。<a href="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;chksm=86f809d76dbec974c85eb25a126ee815185560186fe639fbfd1efd441995c20dfbb93756a84b&amp;idx=1&amp;mid=2453469769&amp;sn=b42e0b67862decbf3c51f81354098e66#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：智驾跨越 L3 有多远？; Llama 4团队辞职传言风波; 美狙击苹果阿里AI合作</header><hr><div class="article-info"><!----><span class="date">Date: 5/18/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-18 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>智驾跨越 L3 有多远？</h3>
+<p>机器之心PRO：2025 上半年国内智驾安全受关注。厂商宣传卡「L2.9999」因 L3 责任重，事故责任界定是 L2 与 L3 核心区别。端到端算法因提升安全性成车企竞争方向。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85b4d40a9569b409fcfba238f448f27e14f2cdbdcdd155bcac6e0a94a5bdcedd0e79470fc8fd&amp;idx=1&amp;mid=2650969499&amp;sn=83b4979aa0d5a668156a1a38fdc551be#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：OpenAI发布编程智能体Codex; AI实力榜：OpenAI谷歌领跑; 极客将LLM塞进PDF文件</header><hr><div class="article-info"><!----><span class="date">Date: 5/17/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-17 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>OpenAI发布编程智能体Codex</h3>
+<p>OpenAI发布AI编程智能体Codex，由codex - 1加持，多任务并行，能高效完成编程任务。已向部分ChatGPT用户开放，Codex CLI更新，未来将支持实时协作与异步任务委托。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0000b508680af528d37b37a2c8c64bfb7826faa917ff5519ba1f3b4aa1d4b3aff75cb4d3126&amp;idx=1&amp;mid=2652594501&amp;sn=ff990606be2ea30f918768b1f5f365ad#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：Founder Park启动AGI机构调研; 台积电：今年扩建9厂，2nm将量产; Switch 2芯片细节曝光引吐槽</header><hr><div class="article-info"><!----><span class="date">Date: 5/16/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-16 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Founder Park启动AGI机构调研</h3>
+<p>Founder Park：鉴于AI发展影响产业与社会底层逻辑，现发起2025中国最具价值AGI创新机构TOP 50调研，面向中国企业，从多维度评选，6月21日公布结果。<a href="https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&amp;chksm=c1763e8455fa9723dbb5e5e5210c5164e440da43ed856b7a9ce1e02290bc93abaef606962bca&amp;idx=1&amp;mid=2247516237&amp;sn=b337e664d64d545cce7b361655e88a40#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">AI日报：腾讯混元挖微软大模型团队; OpenAI开放GPT - 4.1; Gartner：生成式AI难取代工程师</header><hr><div class="article-info"><!----><span class="date">Date: 5/15/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-15 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>腾讯混元挖微软大模型团队</h3>
+<p>腾讯混元挖走微软WizardLM明星团队，其新作Hunyuan - Turbos跻身大模型竞技场前10。此前WizardLM - 2发布不顺，微软又将大裁员，国内大厂正疯狂抢夺大模型人才。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9eb70aea2f70380ad306a13a5b0735c5f9b4f4dc6d84b7feb973b3e4ee2b77b0664516c2d75&amp;idx=1&amp;mid=2247794022&amp;sn=7604270da94a0a43f15f7769ef159b15#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">2025-05-14AI日报：Klarna CEO：AI接管一切梦碎; 微软总裁禁员工用 DeepSeek; LovartAI：首个设计Agent？</header><hr><div class="article-info"><!----><span class="date">Date: 5/14/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-14 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>Klarna CEO：AI接管一切梦碎</h3>
+<p>Klarna CEO曾坚信AI能接管一切，公司以AI减员增效。但AI客服效果差，服务体验不佳。CEO改口，公司重启招聘，将打造‘高质量人类支持’，聚焦三类人群远程岗位。<a href="https://mp.weixin.qq.com/s?__biz=Mzg4NDQwNTI0OQ==&amp;chksm=ceeb72832bd64152c75d097aa58d4c6b3ad8dc3329f935f720204ad26b885785063cc08cac2d&amp;idx=1&amp;mid=2247586788&amp;sn=55bad838b7f4293953244cdc8743338c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">2025-05-13AI日报：国产五强基模决战AGI; 2025.4 扣子 Agent 创作者榜单发布; 陶哲轩：AI 33分钟速证难题</header><hr><div class="article-info"><!----><span class="date">Date: 5/13/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-13 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>国产五强基模决战AGI</h3>
+<p>新智元：中国基础大模型市场现「基模五强」——字节、阿里等。它们各有优势，竞争焦点转向「智能上限」和「多模态能力」，这场竞争终点或许是AGI曙光。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f03f9d0b0ace1842205a9913917dd024c21402ebd06bf7c170281336ef00721bf5414ed3a193&amp;idx=1&amp;mid=2652593239&amp;sn=f715416d09dae8ac8456a9c580fa5cdd#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">2025-05-12AI日报：微软财报：云与AI业务增长猛; Morgan Stanley：中国GPU自给率将大增; 谷歌发布AI智能体白皮书</header><hr><div class="article-info"><!----><span class="date">Date: 5/12/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-12 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>微软财报：云与AI业务增长猛</h3>
+<p>微软2025财年Q3财报亮眼，营收701亿美元。董事长Satya Nadella：云与AI是企业关键；CFO Amy Hood：云业务营收424亿美元，因产品需求旺，业绩强劲。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf0046c28178217bb5f5df15d8387ab2bd76ddf587c0d3572d1dddce466ee8c92a8a168ef1fe&amp;idx=2&amp;mid=2247520921&amp;sn=6f0fdd5a25a8027cb7266611ee041396#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">2025-05-11AI日报：AI预测教皇选举翻车; JetBrains AI助手差评风波; 奥特曼：美AI监管勿太严</header><hr><div class="article-info"><!----><span class="date">Date: 5/11/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-11 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AI预测教皇选举翻车</h3>
+<p>梵蒂冈新教皇揭晓，AI预测翻车。研究人员用算法分析选举人，靠谱系记录训练模型，还借助ChatGPT。专家指模型缺政治地理信息，不过分类方法或能用于其他选举。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f07031921bbc29437d41529048acb1f7af847feaf462d0cf288564c9030a92cefb24409976c6&amp;idx=1&amp;mid=2652593029&amp;sn=4d016d5398c607312f6dc8836b5d07a1#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><article class="article"><header class="title">2025-05-07AI日报：AI开发工具：VSCode之争打响; AI玩具创业热潮遇冷; Gemini 2.5 Pro编程屠榜</header><hr><div class="article-info"><!----><span class="date">Date: 5/7/2025</span><span class="category">Category: </span><span class="tag">Tag: </span></div><div class="excerpt"><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。</p>
+</blockquote>
+<h1>2025-05-08 资讯日报</h1>
+<h2>新闻资讯</h2>
+<h3>AI开发工具：VSCode之争打响</h3>
+<p>AI开发工具领域，VSCode限制多，开发者面临战略抉择。OpenVSX是替代方案但有缺陷，Cursor崛起，微软出手让部分插件在其IDE失效，大家盼良性竞争、开放规则。<a href="https://mp.weixin.qq.com/s?__biz=Mzg4NDQwNTI0OQ==&amp;chksm=ce44c719678dea2f549b2fd523981398ee9bd5c59d85bef9a5815d5c9de23d3ba7497c2f3c38&amp;idx=1&amp;mid=2247586727&amp;sn=0820e4c6cd97dabc7b8e3e57c7baa115#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p></div></article><!--]--></div></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/ai-reading-daily/assets/app-DTV7hOKu.js" defer></script>
+  </body>
+</html>
