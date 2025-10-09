@@ -28,14 +28,15 @@ async function publishToJuejin(title, markdownContent,brief_content) {
       ? "https://www.feishudocs.com/api/publishjuejin"
       : "http://localhost:3003/api/publishjuejin";
     // const brief_content = markdownContent.slice(0, 200).replace(/[#>*\-\[\]!`]/g, "").replace(/\n/g, " ");
-    const image = "https://picsum.photos/1200/630?random=" + Math.floor(Math.random() * 10000); // 随机风景图作为封面
-    markdownContent = markdownContent.replace(/<img id="weixin_qr"[^>]*>/g, "");
+    // const image = "https://picsum.photos/1200/630?random=" + Math.floor(Math.random() * 10000); // 随机风景图作为封面
+    const image="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-10-09221530-d6oQdj.png"
 
+    markdownContent = markdownContent.replace(/<img id="weixin_qr"[^>]*>/g, "");
     const publishRes = await axios.post(publishUrl, {
       title,
       content: markdownContent,
       brief_content,
-      image
+      image:''  // 加了封面会发布失败
     });
     if (publishRes.data && publishRes.data.success) {
       console.log("掘金发布成功",publishRes.data);
