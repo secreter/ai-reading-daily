@@ -1,0 +1,53 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-04-20-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-04-20-资讯日报"><span>2026-04-20 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="周亚辉-企业级agent是ai更大金矿" tabindex="-1"><a class="header-anchor" href="#周亚辉-企业级agent是ai更大金矿"><span>周亚辉：企业级Agent是AI更大金矿</span></a></h3>
+<p>天工AI董事长周亚辉认为中国大模型要保持竞争力需踏实研发；企业出海靠技术；AI产品重技术，出海市场集中；“一人公司”机会大，企业级Agent是金矿；新模型会涨价，未来盈利可期。<a href="https://mp.weixin.qq.com/s?__biz=MzkyMzY1NTM0Mw==&amp;chksm=c0ae6904b04ddf91b5154582478d6e2b7ccafc9f543ffd5fd836ed985f8701b97b86348bc664&amp;idx=1&amp;mid=2247515080&amp;sn=4b621dd606de5721b514ed66fea4a58f#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="agent-skill开发者大赛火热开启" tabindex="-1"><a class="header-anchor" href="#agent-skill开发者大赛火热开启"><span>Agent Skill开发者大赛火热开启！</span></a></h3>
+<p>AIGC开放社区与算泥社区：为推动AI技术落地，举办Agent Skill开发者大赛。大赛聚焦真实任务执行，设双赛道，官方护航，有丰厚奖励，邀开发者参与。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cfe6839ee2f92e1533e3e09fcdc5bd7e7268dd6020860725c3edaa233ca9df1e3a66a003f9db&amp;idx=4&amp;mid=2247526165&amp;sn=1eec832ff841b96647387aa233f321b8#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="meta-token-榜引-ai-生产力衡量争议" tabindex="-1"><a class="header-anchor" href="#meta-token-榜引-ai-生产力衡量争议"><span>Meta Token 榜引 AI 生产力衡量争议</span></a></h3>
+<p>Meta 现 AI token 消费排行榜，30 天耗超 60 万亿 token。科技公司高管赞同“Token 最大化”文化，但有人质疑用 token 衡量生产力。当前 Agent 高 token 消耗是补偿，应提升效率。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=fa733aff2989503c6c610723d37e1436e292eed5a09abbb9f7866ec07a68bfc8bc81de14f8dc&amp;idx=1&amp;mid=2247661239&amp;sn=4f5ad08ed23d5bc349830344ae8e01cc#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="商汤医疗获超5亿融资-估值破10亿美元" tabindex="-1"><a class="header-anchor" href="#商汤医疗获超5亿融资-估值破10亿美元"><span>商汤医疗获超5亿融资，估值破10亿美元</span></a></h3>
+<p>商汤医疗获超5亿融资，估值达10亿美元。它走医疗世界模型路线，构建独特迭代体系，与众多医院、企业合作，创始人认为医疗世界模型架构将成核心。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e91eb1dae413fc80894bfdc3f7e13d06009990f2a37848fb551220842c7785c025877c38b5bd&amp;idx=2&amp;mid=2247884635&amp;sn=0e35900ac285d6d98cbca082da672a83#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="影身智能-3d数据重塑机器人认知" tabindex="-1"><a class="header-anchor" href="#影身智能-3d数据重塑机器人认知"><span>影身智能：3D数据重塑机器人认知</span></a></h3>
+<p>影身智能创始人闵伟：世界模型需3D数据，自研‘影身360’系统可采集。公司落地制鞋等柔性智造场景，目标打造通用人工智能，从复杂任务突破，让产品获社会认可。<a href="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;chksm=ffb2c978563899e41e2c647651a413ac6773499d80cd144116656767166f3e46ace8625c2f92&amp;idx=1&amp;mid=2247553486&amp;sn=7c25bc6978c345ca1192be840f79c03b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="openai-codex升级-硬刚claude-code" tabindex="-1"><a class="header-anchor" href="#openai-codex升级-硬刚claude-code"><span>OpenAI Codex升级，硬刚Claude Code</span></a></h3>
+<p>OpenAI：Codex重大更新，能独立操作电脑、贯穿开发周期、记忆与自动规划。更新推给ChatGPT账号的Codex桌面端用户，后续扩展。面对Claude Code压力，要打造Super App硬刚。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cfc01df1f43544b1fcbfb18ae937c6024fa024fac838c8ce87b5e5790128a16a92be92365a17&amp;idx=1&amp;mid=2247526165&amp;sn=76a75f4064cc384c3beb8c40ea44d2e6#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="claude-opus-4-7发布-干活无需人类多干预" tabindex="-1"><a class="header-anchor" href="#claude-opus-4-7发布-干活无需人类多干预"><span>Claude Opus 4.7发布，干活无需人类多干预</span></a></h3>
+<p>Anthropic：Claude Opus 4.7发布，搭配Routines可自动化工作，减少人工干预。其能力大幅提升，还引入新安全机制，推出新运算级别和任务预算功能。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf905fd40c5f42517fd9d26c6cf7f68d2affeefc07ce005062d62b1b907de914c070df754235&amp;idx=3&amp;mid=2247526165&amp;sn=74a3824ef2c63e58c31c2eb4bab9664b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="零犀科技-大模型玩成闭环赚钱机器" tabindex="-1"><a class="header-anchor" href="#零犀科技-大模型玩成闭环赚钱机器"><span>零犀科技：大模型玩成闭环赚钱机器</span></a></h3>
+<p>零犀科技：自研因果大模型，以RaaS模式用AI智能体帮企业提升销售。2025年实现规模盈利，核心团队经验丰富，国内Agentic Sales赛道优势显著，产业应用价值将释放。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9ed9fb06a9ad3726eb55e283371e4d777ac9eb7d66b6f111ad7f31471c3aac44513d047ac7c&amp;idx=1&amp;mid=2247884635&amp;sn=8c842cef62e9d6a704e9de16ece54210#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="蚂蚁灵光app-wish-coding开启c端编程新时代" tabindex="-1"><a class="header-anchor" href="#蚂蚁灵光app-wish-coding开启c端编程新时代"><span>蚂蚁灵光App：Wish Coding开启C端编程新时代</span></a></h3>
+<p>机器之心：Vibe Coding未降低软件交付门槛，蚂蚁灵光App以Wish Coding重构生产关系，虽有不足，但让普通人能将意图变应用，或开启软件生产新层。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85fb9a189a3ce28996895c2d3e27953dd89980cccf0e20d54c55eb61d0288537cd2376f1dbf5&amp;idx=1&amp;mid=2651028663&amp;sn=d0213992629afda755d05c81935f071c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="国内使用claude-code保姆级教程" tabindex="-1"><a class="header-anchor" href="#国内使用claude-code保姆级教程"><span>国内使用Claude Code保姆级教程</span></a></h3>
+<p>作者称Claude Code是最好的Agent框架，即便不用Claude原生模型，搭配国产模型效果也不错。分享了Mac和Windows系统的安装、接模型、启动教程，还强调设置CLAUDE.md文件的重要性。<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;chksm=f1343852b520479498716d0088470efd1ed6c84ebe9b8a4f47d74583e49d7a7e986ac6f4c48f&amp;idx=1&amp;mid=2647681650&amp;sn=ebe9c3f89ede3094c532f47dcd495081#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="深度解析claude-code设计与实践" tabindex="-1"><a class="header-anchor" href="#深度解析claude-code设计与实践"><span>深度解析Claude Code设计与实践</span></a></h3>
+<p>飞樰：Claude Code是出色的AI Coding Agent，其在Prompt上多层级动态组装；上下文管理有三层压缩体系和Memdir记忆系统；Harness方面有系统提醒、多Agent及安全体系，还有诸多有趣彩蛋。<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;chksm=e85c35206aa7bdd736313a4510a7da36aa60edbb8df213b89368a574c41b55ddac951a8646ad&amp;idx=1&amp;mid=2247559627&amp;sn=7847089f5135e5060953f013fa56fd4f#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="白春礼-ai引发科研范式变革" tabindex="-1"><a class="header-anchor" href="#白春礼-ai引发科研范式变革"><span>白春礼：AI引发科研范式变革</span></a></h3>
+<p>白春礼：AI浪潮下，科研范式正变革，体系面临结构重塑，呈现新特征。当下竞争是认知体系竞争，中国应融合科创与产创，同时强化哲学与科学对话，让科技服务人类。<a href="https://mp.weixin.qq.com/s?__biz=MzU4ODk1NDUwOA==&amp;chksm=fcf696118a6e17ea74b5a089cea1267dc93074c3748f5c5328df8cf2d3bf852fad116357baf0&amp;idx=1&amp;mid=2247517308&amp;sn=538ec10a54e93e5af27bdd0b6a322ab9#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="本体-agent-让ai按业务规则办事" tabindex="-1"><a class="header-anchor" href="#本体-agent-让ai按业务规则办事"><span>本体+Agent：让AI按业务规则办事</span></a></h3>
+<p>秋山墨客：本体非数据库或图谱，是Agent与企业系统间语义层。以业务规则判断和产品多维归类为例，展示本体在Agent系统中做规则推理的应用，其相比if/else和传统规则引擎优势明显。<a href="https://mp.weixin.qq.com/s?__biz=Mzk1NzQ1ODk5NQ==&amp;chksm=c2b619daa125b2ab6dd0e10fe9cf323afc9eaa9f6363e9fed6d35e686a9680f5582e1cb63966&amp;idx=1&amp;mid=2247525621&amp;sn=a5e6205896478b253cd36e82f9f863f2#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="作者为claude-code打造ai硬件监工" tabindex="-1"><a class="header-anchor" href="#作者为claude-code打造ai硬件监工"><span>作者为Claude Code打造AI硬件监工</span></a></h3>
+<p>作者用M5Paper开发板做出M5 Paper Buddy，可监控Claude Code状态、审批操作。它功能多，和官方项目不同。现在AI与硬件结合门槛降低，个人开发者可先入局。<a href="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;chksm=fa47e84d48a87918a54ed6056e191bff304adf72bb363dbc07a4cdcac9e339b7248017c60d03&amp;idx=1&amp;mid=2247496535&amp;sn=a1bb9ae0c6cde5f915410b1cdeb580e4#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="剑桥开源atm-bench-ai记忆能力大考验" tabindex="-1"><a class="header-anchor" href="#剑桥开源atm-bench-ai记忆能力大考验"><span>剑桥开源ATM - Bench，AI记忆能力大考验</span></a></h3>
+<p>剑桥大学团队开源ATM - Bench测试AI长期记忆能力。实验显示，OpenClaw、Codex等系统表现不佳，即便工具链完善，长期个性化记忆问答仍是难题，离真正「个性化AI」还远。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=8553352adaea9702f216381adddcc214f733a1fd1a0d111bc55b4ad8ce8bd75f84a68af6e727&amp;idx=2&amp;mid=2651028663&amp;sn=e6ba840644581f20c156c12f026e0211#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="autosubs-开源字幕神器救了视频创作者大命" tabindex="-1"><a class="header-anchor" href="#autosubs-开源字幕神器救了视频创作者大命"><span>AutoSubs：开源字幕神器救了视频创作者大命！</span></a></h3>
+<p>开发者 Tom Moroney 打造开源字幕工具 AutoSubs，可本地运行，保障隐私、速度快且免费。它能自动识别说话人，有多种 AI 模型，还能与专业剪辑软件集成，助创作者摆脱字幕制作烦恼。<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjQ0NzI0OQ==&amp;chksm=c1ca136043b3ef763af32c99a4c3738763aaaf86a6f58392e82395509623e21108c485be57e5&amp;idx=1&amp;mid=2247505930&amp;sn=703950e41775113b509a085c7d4bc50b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="算法论文" tabindex="-1"><a class="header-anchor" href="#算法论文"><span>算法论文</span></a></h2>
+<h3 id="anthropic-claude-agent对齐成果超人类4倍" tabindex="-1"><a class="header-anchor" href="#anthropic-claude-agent对齐成果超人类4倍"><span>Anthropic：Claude Agent对齐成果超人类4倍</span></a></h3>
+<p>Anthropic：用9个并行的Claude Opus Agent组成团队，花5天、约$18,000，将PGR从人类的0.23提升到0.97，证明有明确评估指标时，AI自动化研究可行。<a href="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;chksm=c3dadfc000487b058f08ff7e8b16afa72326fbf3afacb0f2c26340b597e3a9e5629603351faa&amp;idx=1&amp;mid=2247506680&amp;sn=f3f8182a8f9119248b5134f8bbb6c2a0#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="上海交大-智能体尽头是harness基建" tabindex="-1"><a class="header-anchor" href="#上海交大-智能体尽头是harness基建"><span>上海交大：智能体尽头是Harness基建</span></a></h3>
+<p>上海交大等团队：智能体落地关键转向外部认知基建。记忆、技能、协议模块相互强化，Harness是控制中枢。技术有向具身智能延伸等前沿趋势，未来产业比拼基建能力。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf899a024091c8133c465b6ee2b4c36b3b6fa1c72ecdba79afc074e3600ad488fb822b7fca76&amp;idx=2&amp;mid=2247526165&amp;sn=910b90672ed03ce078f761085cf46f43#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
