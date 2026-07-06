@@ -1,0 +1,49 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-07-06-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-07-06-资讯日报"><span>2026-07-06 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="karpathy-逼agent干活是ai最大错误" tabindex="-1"><a class="header-anchor" href="#karpathy-逼agent干活是ai最大错误"><span>Karpathy：逼Agent干活是AI最大错误</span></a></h3>
+<p>Karpathy：当前AI最大错误是逼Agent干活却不先搞底层大模型。他结合自身经历给三步忠告，否定当下玩法，鼓励开发者从神经科学找灵感，称他们站在Agent前沿。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f01d1b179cc93e0d1646d05a79f6d99f5f72df8f157538a68ecbb5c76d794f6a0031f08db128&amp;idx=2&amp;mid=2652710857&amp;sn=e506977c3cbd83ac89b8be2a56071a09#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="icml-2026-扩散模型与ai安全引关注" tabindex="-1"><a class="header-anchor" href="#icml-2026-扩散模型与ai安全引关注"><span>ICML 2026：扩散模型与AI安全引关注</span></a></h3>
+<p>ICML 2026公布大奖，扩散模型相关论文成杰出论文赢家，指出该领域需纠偏补基建；立场论文奖批评AI安全工具被挪用；时间检验奖给DeepMind经典论文，显示AI研究转向深度清理。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f000693f6f976a2768f0fa242c2d952d66bbaf18928ce3d7376bf117b568059dbe72fd18b1c6&amp;idx=1&amp;mid=2652710857&amp;sn=761f296199407ebf0db6fd85964d5d18#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="任冬淳-物理ai瓶颈在训练体系" tabindex="-1"><a class="header-anchor" href="#任冬淳-物理ai瓶颈在训练体系"><span>任冬淳：物理AI瓶颈在训练体系</span></a></h3>
+<p>汤元科技任冬淳：物理AI瓶颈在于训练体系，需满足多方面要求。汤元构建训练底座，为具身智能和智能驾驶服务，具身智能或成未来十年最大增量场景，汤元将重点面向其发展。<a href="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;chksm=ff255d1bb64c05e3e80f4e71d8f022f178b077bb89caf236c45ce90a962ec1323bfcc2226b02&amp;idx=1&amp;mid=2247555230&amp;sn=76c845f4862ddc21bc2dc4944b89300d#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="slash员工假账单游戏营销赚1亿美元" tabindex="-1"><a class="header-anchor" href="#slash员工假账单游戏营销赚1亿美元"><span>Slash员工假账单游戏营销赚1亿美元</span></a></h3>
+<p>Slash员工尼哥开发《Brainrot Shooter》，称花8万多美元，游戏火了带来1亿美元AUM，后发现账单是假，成本不到200美元，这场营销相当成功。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9332d5c1338e8f7c98158083d434ba261d65f8b15ed3b2a798eea2409d4d50ee550cd5157af&amp;idx=2&amp;mid=2247901706&amp;sn=f473db0dc35b5aa79649d92eee4bef91#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="claude-fable-5击退网站48小时攻击" tabindex="-1"><a class="header-anchor" href="#claude-fable-5击退网站48小时攻击"><span>Claude Fable 5击退网站48小时攻击</span></a></h3>
+<p>作者网站AIHOT遭‘反AI小队’攻击，Claude Fable 5分析出攻击因服务器共享项目无防护而起，后续攻击中它封IP、加固缓存等，成功防御，让作者体验高效学习。<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;chksm=f18dc4ea013a0176bb92432763fe495d2d331dd6ab419dd173f1aaa2eb5f159f2a4d8fe09d1b&amp;idx=1&amp;mid=2647684065&amp;sn=f6a7e4e0f14161594677c6c8768c0f11#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="网友薅fable-5羊毛-token成本最高省70" tabindex="-1"><a class="header-anchor" href="#网友薅fable-5羊毛-token成本最高省70"><span>网友薅Fable 5羊毛，token成本最高省70%</span></a></h3>
+<p>网友发现用pxpipe将Fable 5上下文转图片，可省70% token成本。它是本地代理，利用计价差异压缩输入。不过是有损压缩，吃模型视觉读取能力，还接上了以往相关技术路线。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e972ee19838c2eeb59d624994bcd7982e1bbe731c760b10c968da4ce94c083dd083fc435a19e&amp;idx=1&amp;mid=2247901706&amp;sn=20ee71aee51369fd60e5547e967d775c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="anthropic工程师-fable-5干你未知之事" tabindex="-1"><a class="header-anchor" href="#anthropic工程师-fable-5干你未知之事"><span>Anthropic工程师：Fable 5干你未知之事</span></a></h3>
+<p>Anthropic工程师Thariq Shihipar：与Fable 5协作关键是发现未知，它能解决复杂问题。将未知分四类，给出任务前中后打法，如用其剪视频，按识别未知逻辑操作。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cfd4cfb51fca7375bf7ce1a9f418c1eb41692af302fbfee6b814eee2d3da73fdeb37fa15ee97&amp;idx=1&amp;mid=2247526542&amp;sn=5bdacd26b9aae1e3794a905f52621cc8#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="_2026年需懂的20个agent工程运行机制概念" tabindex="-1"><a class="header-anchor" href="#_2026年需懂的20个agent工程运行机制概念"><span>2026年需懂的20个Agent工程运行机制概念</span></a></h3>
+<p>文章指出，Agent是从聊天到行动的执行体，与ChatBot不同。还介绍Harness、Execution Model等概念，如Harness是模型运行框架，Execution Model决定行动范式，给出工程实践建议，下篇将探讨系统能力。<a href="https://mp.weixin.qq.com/s?__biz=Mzk1NzQ1ODk5NQ==&amp;chksm=c2065369662a8bda19139c02e444ef82cc33ae88724a982b465f1cd1743a056c232f4706bc33&amp;idx=1&amp;mid=2247526083&amp;sn=61be0e0db7b45b1ebc6f2d5f6a41b1e5#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="autoresearch-llm-agent-接手-llm-训练优化" tabindex="-1"><a class="header-anchor" href="#autoresearch-llm-agent-接手-llm-训练优化"><span>AutoResearch-LLM：Agent 接手 LLM 训练优化</span></a></h3>
+<p>吉梦林：将电商场景 Qwen3 微调流水线沉淀为 Agent 驱动的三阶段框架，还分享踩坑经历。虽有不足，如 Agent 调参不够智能等，但已让 LLM 训练自动化更近一步，未来要接上‘模型训练’与其他环节。<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;chksm=e88da904ea9df0026bb9b0ec7b25b1f518bc38c84d41343223dad4829b2c77f898e65ac41e77&amp;idx=1&amp;mid=2247561366&amp;sn=d50229e8d5ebdc40a628493d218f43ab#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="vista-评测ai开发产品能力的benchmark" tabindex="-1"><a class="header-anchor" href="#vista-评测ai开发产品能力的benchmark"><span>VISTA：评测AI开发产品能力的Benchmark</span></a></h3>
+<p>多校研究团队推出 VISTA，首个面向 Visual Spec-to-Web-App Coding Agents 的端到端 Benchmark。它从多维度评测 Coding Agent 开发能力，持续更新记录其能力演进，推动软件工程评测从代码走向产品。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85955f784a43a2492645340fd2a704e721748cacd80f1d8523efafadfe550e5e343c882f56d7&amp;idx=3&amp;mid=2651042743&amp;sn=f4ee3a607d462954f404a1414f41cb9c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="大神开源插件-claude、fable5账单降6成" tabindex="-1"><a class="header-anchor" href="#大神开源插件-claude、fable5账单降6成"><span>大神开源插件，Claude、Fable5账单降6成</span></a></h3>
+<p>外网大神开源插件，把模型上下文渲染成图片压缩Token，成本最多降7成。此前因模型识图差难落地，fable5证明可行，虽有损但随模型变强值得一试，gpt5.6或可续上。<a href="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;chksm=c0561ebc9dad4192b50e957140dbf68c6aea481ac8c59217e838c22ea75b67646a51b0179e7e&amp;idx=1&amp;mid=2247493881&amp;sn=17be86e09d38ef3ce6ec639ed5320aae#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="memobench-捅破世界模型评测最大盲区" tabindex="-1"><a class="header-anchor" href="#memobench-捅破世界模型评测最大盲区"><span>MemoBench：捅破世界模型评测最大盲区</span></a></h3>
+<p>来自多机构的研究者提出新基准MemoBench，检测世界模型‘物体恒存’能力。测试显示现模型记忆一致性差，说明‘生成画面’与‘理解世界’差距大，为模型研发提供诊断标尺。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85ac501a9dfe166f355f49a8619c013c126ef5dfe6d1fb1e8f3fe4ffde61767a556f7ca57b6f&amp;idx=1&amp;mid=2651042743&amp;sn=fffb24f6015fd7f908ebabf57c4d01fd#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="openai-开源插件让-claude-与-codex-协作" tabindex="-1"><a class="header-anchor" href="#openai-开源插件让-claude-与-codex-协作"><span>OpenAI 开源插件让 Claude 与 Codex 协作</span></a></h3>
+<p>OpenAI 开源 codex - plugin - cc 插件，让 Claude Code 和 Codex 协作。它能无缝衔接工作流、实现优势互补、支持后台任务，提供多种命令，适合 Claude Code 重度用户及代码审查需求者。<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjQ0NzI0OQ==&amp;chksm=c1069a32d501b57f50bb3fef6bfed7d94491deffe086cf5645c622334482eb5650c5a8a746cc&amp;idx=1&amp;mid=2247506472&amp;sn=becb7b1a889b118ff5fe6058effdb617#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="开源项目让claude具备看视频能力" tabindex="-1"><a class="header-anchor" href="#开源项目让claude具备看视频能力"><span>开源项目让Claude具备看视频能力</span></a></h3>
+<p>开源项目让Claude能“看”视频，变“被动看”为“主动问”。复制视频和问题，经工具处理后Claude基于内容作答。安装简单，适用于分析内容、诊断Bug、总结视频等场景。<a href="https://mp.weixin.qq.com/s?__biz=MzkxNjQ4MzMyOA==&amp;chksm=c03851af17c8483dca1da371473649b425c95ef6a128652c6e7dc1bccca6f2d2ba945a29d1ea&amp;idx=1&amp;mid=2247495669&amp;sn=4744a60253c84687be2315d37fd4d771#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="算法论文" tabindex="-1"><a class="header-anchor" href="#算法论文"><span>算法论文</span></a></h2>
+<h3 id="rda-yolo-极端天气下绝缘子缺陷检测利器" tabindex="-1"><a class="header-anchor" href="#rda-yolo-极端天气下绝缘子缺陷检测利器"><span>RDA - YOLO：极端天气下绝缘子缺陷检测利器</span></a></h3>
+<p>datayx团队：提出RDA - YOLO网络用于绝缘子缺陷检测，在YOLOv8基础上创新，实验表明其mAP@0.5达91.4%，速度26.2 FPS，极端雾天鲁棒性强，有工程应用价值。<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk3ODI2OA==&amp;chksm=86e19d23d7efdfe5cc6f59f8563dca57cf669fbded8cc083f078c9a95c398bfddeec5ecd4a8e&amp;idx=1&amp;mid=2650365123&amp;sn=5c1e69da96646b1bacf2992fb2a7e761#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="如视argus-让3dgs告别lidar精准重建" tabindex="-1"><a class="header-anchor" href="#如视argus-让3dgs告别lidar精准重建"><span>如视Argus：让3DGS告别LiDAR精准重建</span></a></h3>
+<p>如视：Argus能从图像为3DGS提供精准位姿约束，降低成本。在Realsee3D测试中表现优异，误差接近LiDAR，3D重建正从设备驱动走向模型驱动。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=851b8305753035f96087df30267cebcfd0198d6655a857386690c6386c31f84e02079594c301&amp;idx=2&amp;mid=2651042743&amp;sn=87a96420ae1377844a7c5c59335aaaa8#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
