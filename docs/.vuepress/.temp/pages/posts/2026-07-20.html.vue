@@ -1,0 +1,17 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-07-20-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-07-20-资讯日报"><span>2026-07-20 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="阿里安全发布3款llm-多维度领先gpt-5-4" tabindex="-1"><a class="header-anchor" href="#阿里安全发布3款llm-多维度领先gpt-5-4"><span>阿里安全发布3款LLM，多维度领先GPT - 5.4</span></a></h3>
+<p>阿里安全AGI实验室：发布3款Yuvion LLM，以‘对抗即智能’为核心，构建五类数据体系和三阶段训练范式，经YLRE评测，在多维度超越GPT - 5.4等模型，Agent版业务能力更强。<a href="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;chksm=c3f3752662d94f32688abd95620f30286969e60dbb389568fbd4deb4efec3932851e8bdaba5a&amp;idx=1&amp;mid=2247509207&amp;sn=b2038a3e92e9466c692d584cba90f033#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="苏度科技-探索通用机器人发展新路径" tabindex="-1"><a class="header-anchor" href="#苏度科技-探索通用机器人发展新路径"><span>苏度科技：探索通用机器人发展新路径</span></a></h3>
+<p>苏度科技创始人苏昊等技术实力强，公司成立一年估值200亿。其构建能力积累体系，以虚实融合数据提升泛化力、软硬件协同缩短周期。在多场景落地，目标2028年达千台级交付。<a href="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;chksm=91fe6ade0773bdecb429960054a4342a4a38271cefb18d2a3de6d3d70c51e5dd192959b08683&amp;idx=1&amp;mid=2247739441&amp;sn=817a0562be8f525a5ee3d6ec859afe56#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
