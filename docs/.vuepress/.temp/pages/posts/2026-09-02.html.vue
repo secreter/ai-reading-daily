@@ -1,0 +1,47 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-09-02-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-09-02-资讯日报"><span>2026-09-02 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="李飞飞发布多模态世界模型-atlas" tabindex="-1"><a class="header-anchor" href="#李飞飞发布多模态世界模型-atlas"><span>李飞飞发布多模态世界模型 Atlas</span></a></h3>
+<p>李飞飞团队的 World Labs 发布 Atlas 模型，能处理多类型数据，有生成、重建等能力。其研发路线从 Marble 到 RTFM，还收购 SceniX。获 10 亿美元融资，为模型训练和进入专业流程助力。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bc2f3ebfc89aaf1b0d85c61e40d84d79a3c017ed67c30f56cd805f3f280a35464ec3219c0051&amp;idx=1&amp;mid=2651292112&amp;sn=ad5f755fe0f4ddafb99c8c1f006f5111#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="ai扩产-中国铒钇供应链优势凸显" tabindex="-1"><a class="header-anchor" href="#ai扩产-中国铒钇供应链优势凸显"><span>AI扩产，中国铒钇供应链优势凸显</span></a></h3>
+<p>IEEE指出，铒用于数据中心长距离光通信，钇用于燃气轮机。AI数据中心扩产使二者需求增加。我国占这两种小金属近100%产量，分离加工能力强，供应链优势可能转化为价格溢价。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9a29f33bae44a660bca134e149eeac7ed130747cd7cbc24d30ffed49609ffabdc546965b998&amp;idx=2&amp;mid=2247917782&amp;sn=b70f41453fe56053bf7e120c7cacfeb3#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="孙鹏加盟星尘智能-强化机器人后训练" tabindex="-1"><a class="header-anchor" href="#孙鹏加盟星尘智能-强化机器人后训练"><span>孙鹏加盟星尘智能，强化机器人后训练</span></a></h3>
+<p>9月2日，前字节强化学习专家孙鹏加入星尘智能，负责机器人相关研发。星尘智能技术、资本和商业化发展良好，孙鹏经验适配其需求，未来将结合强化学习后训练与真实机器人应用。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;chksm=faf774d0eab816975fcfd28b6f5b935767632e38a768b086c5998f47537ac0e57980e70e51ce&amp;idx=1&amp;mid=2247666434&amp;sn=c96b512ae1e4dcd6b5e78800bfb67ba9#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="鼎犀智创一年三轮融资-ai驱动新材料研发" tabindex="-1"><a class="header-anchor" href="#鼎犀智创一年三轮融资-ai驱动新材料研发"><span>鼎犀智创一年三轮融资，AI驱动新材料研发</span></a></h3>
+<p>鼎犀智创总裁吕海峰称，让AI科学家走进实验室做材料。其成立一年完成三轮数亿融资，构建端到端研发闭环，缩短研发周期，成果获业界认可，将建AI科学家体系。<a href="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;chksm=ff2dbcf3003306faac569251255cefdfcbc5efabe9a1f827772bfe45446d80f63c3033745964&amp;idx=1&amp;mid=2247557449&amp;sn=6fa8dea7de4857f5d1dd327da66a5725#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="全国首个ai生成内容合规标准征参编" tabindex="-1"><a class="header-anchor" href="#全国首个ai生成内容合规标准征参编"><span>全国首个AI生成内容合规标准征参编</span></a></h3>
+<p>欧盟《人工智能法案》执法，全球AI生成内容合规监管趋严。中国电子商会、智合标准中心等推出全国首个AI生成内容合规团体标准，现面向全行业征集起草单位和起草人。<a href="https://mp.weixin.qq.com/s?__biz=Mzg5NTMxMjQ4OA==&amp;chksm=c105c346ebdb82716eb4fc83fb2f534c84bd402b907d33caa1159c8f62949872991d534b4eaf&amp;idx=1&amp;mid=2247486885&amp;sn=56a960295e8477695523eded3dc4705a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="anthropic发布claude-5-1-最强能力限少数机构用" tabindex="-1"><a class="header-anchor" href="#anthropic发布claude-5-1-最强能力限少数机构用"><span>Anthropic发布Claude 5.1，最强能力限少数机构用</span></a></h3>
+<p>Anthropic：9月1日发布Claude Fable 5.1和Mythos 5.1，用相同底层模型。Fable面向大众，Mythos仅向审核机构开放。该公司尝试新开放方式，但效果待实际验证。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf3759e1c2aeb6cd58f7dd0c087a48924caed04da91aece185cc1b9d92a4a74ad70e68cdb555&amp;idx=1&amp;mid=2247526796&amp;sn=a81622884c0fa2b132bc6b205aed0a84#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="anthropic-发布-fable-5-1-提示词指南" tabindex="-1"><a class="header-anchor" href="#anthropic-发布-fable-5-1-提示词指南"><span>Anthropic 发布 Fable 5.1 提示词指南</span></a></h3>
+<p>Anthropic 发布 Fable 5.1 提示词指南，指出旧提示词部分需修正。如模型行为有并行工具调用变少等 7 个变化，effort 有五档且成本降低，还给出各问题的修正提示词及工程建议。<a href="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;chksm=86f24b232b55e8bf9942bd611519f7b29089e4cf2a088d67bff79c11a6f8804c4070e3073642&amp;idx=1&amp;mid=2453487306&amp;sn=00fe91bfdd17a22734c898051e916639#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="百融-aicc引领企业级agent落地" tabindex="-1"><a class="header-anchor" href="#百融-aicc引领企业级agent落地"><span>百融：AICC引领企业级Agent落地</span></a></h3>
+<p>百融智能CEO张韶峰称进行战略升级，以AICC和硅基员工为起点。其AICC业务增长，采用RaaS收费，能降成本。提出“技术重构型AI Roll - up”，将AI推向生产作业内部。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e95084893fa0cb02ce6265b48a06ae42b61dae2555c7ab183c337c42f2fce8628172373536a9&amp;idx=1&amp;mid=2247917829&amp;sn=a7bd1b13ed752c47db7a3af52285b182#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="黄益贺-用codex做跨境电商的业务系统之道" tabindex="-1"><a class="header-anchor" href="#黄益贺-用codex做跨境电商的业务系统之道"><span>黄益贺：用Codex做跨境电商的业务系统之道</span></a></h3>
+<p>黄益贺：用Codex做跨境电商，五条工作流跑通后业务仍有问题。业务系统是持续经营机制，通过证据、决策等五步让本周影响下周，结合案例展示操作。<a href="https://mp.weixin.qq.com/s?__biz=MzkyNzU0MzQwOQ==&amp;chksm=c33d2d0b7854f97c1164a32481b4bc500796bea04f68aac543701de3c7e91b2998929eb88115&amp;idx=1&amp;mid=2247485455&amp;sn=fca249b6be772b89a98f9fe78eb4fe3e#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="高校-ai-教育滞后-学生应善用-ai-学习" tabindex="-1"><a class="header-anchor" href="#高校-ai-教育滞后-学生应善用-ai-学习"><span>高校 AI 教育滞后，学生应善用 AI 学习</span></a></h3>
+<p>作者：高校在 AI 教育上滞后，不提供 Token 不合理。学生应善用 AI，具备问题意识、判断力和品味，可把 AI 用在刀刃上，投入替代不了的事，薅厂商羊毛。<a href="https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&amp;chksm=fe58fd4b6ecfec082124e0b976ccf22c60104c0cd0080f9ec749dc4bc3c37075c231f4d275f5&amp;idx=1&amp;mid=2247520693&amp;sn=53fc48c935592a082385694c4209970c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="边鑫-hydea加速粘性不可压流动求解" tabindex="-1"><a class="header-anchor" href="#边鑫-hydea加速粘性不可压流动求解"><span>边鑫：HyDEA加速粘性不可压流动求解</span></a></h3>
+<p>边鑫：在智能流体力学专题研讨会上介绍HyDEA混合求解框架，融合深度学习与传统迭代方法，利用二者互补性实现粘性不可压流动加速求解。<a href="https://mp.weixin.qq.com/s?__biz=MzU4ODk1NDUwOA==&amp;chksm=fc8a78caf311415aaa2a5cf533e0ae44369863917ad234fcfae6cfce58d6cbfe52c1f5ae6f8c&amp;idx=1&amp;mid=2247518454&amp;sn=10e527b5ce7dd74121817a4c9efe30ba#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="小g团队复刻火爆全网的机器鸭" tabindex="-1"><a class="header-anchor" href="#小g团队复刻火爆全网的机器鸭"><span>小G团队复刻火爆全网的机器鸭</span></a></h3>
+<p>小G团队复刻火爆机器鸭，从公开MJCF仿真模型推出装配信息。虽硬件未全开源，但可机械照抄、电控自建，实现整机复刻，不过自制成本或超购买。<a href="https://mp.weixin.qq.com/s?__biz=MzkxNjQ4MzMyOA==&amp;chksm=c0a656421d1d74f197ec871b0196cfe527bf4957ad7f02c8122de5dc5ddfdabe429ed2caed18&amp;idx=1&amp;mid=2247496159&amp;sn=83ca803018035ca545c0d9702cbab158#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="inkeep开源ai原生markdown编辑器" tabindex="-1"><a class="header-anchor" href="#inkeep开源ai原生markdown编辑器"><span>Inkeep开源AI原生Markdown编辑器</span></a></h3>
+<p>Inkeep 团队：开源了 OpenKnowledge 知识库工具，所见即所得，支持多 AI 实时协作编辑，有智能搜索功能，用 Git 同步，适合处理敏感文档的团队。<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjQ0NzI0OQ==&amp;chksm=c13a66c60db408574407e49d58dbc6a22db584833eb8c9a342821f1781b1158b5f3cedfd7c14&amp;idx=1&amp;mid=2247506840&amp;sn=e9718007cd5ba78aa00c43e73b284d44#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="算法论文" tabindex="-1"><a class="header-anchor" href="#算法论文"><span>算法论文</span></a></h2>
+<h3 id="unisteer-人类指导让-vla-强化学习更高效" tabindex="-1"><a class="header-anchor" href="#unisteer-人类指导让-vla-强化学习更高效"><span>UniSteer：人类指导让 VLA 强化学习更高效</span></a></h3>
+<p>微软等团队提出 UniSteer，解决人类动作与噪声空间无可靠接口问题。它将人类动作反演为噪声监督，在多任务测试中，66 分钟内将成功率从 20% 提至 90%，提升探索效率。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85c944ec3520dec1ad91f0d970611d9d2963a2ad801aa206b4972ef3b38f68621fb91ec8bb55&amp;idx=2&amp;mid=2651054040&amp;sn=4c0e9b497d55103876f7bdb96e4371cd#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="clawbench-ai-agent真实网站任务集体翻车" tabindex="-1"><a class="header-anchor" href="#clawbench-ai-agent真实网站任务集体翻车"><span>ClawBench：AI agent真实网站任务集体翻车</span></a></h3>
+<p>研究团队发布ClawBench评估框架，让AI在真实网站执行任务，结果显示Claude、GPT、Gemini等模型集体翻车，暴露真实环境交互问题，离‘AI替人干活’还有巨大差距。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85f0b1b396fe7bbd1a4e509e13ccb9991389abcbbdfca0a51458ad7d1592f96297cd6ec099d2&amp;idx=2&amp;mid=2651053988&amp;sn=0efba181ac1f200fbab40f5d8f688d2e#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
