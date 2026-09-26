@@ -1,0 +1,55 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-09-26-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-09-26-资讯日报"><span>2026-09-26 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="gpt-6考过真车科目二-成唯一通关者" tabindex="-1"><a class="header-anchor" href="#gpt-6考过真车科目二-成唯一通关者"><span>GPT-6考过真车科目二 成唯一通关者</span></a></h3>
+<p>湾区极客组织大模型真车驾考，未受过专门驾驶训练的GPT-6 Astra成功通关，其余三款大模型全部挂科，打破了自动驾驶必须依赖海量专属训练数据的传统认知。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0f9144d3860758299691b2572bdc2b9bb08ebe1122d920b47175ed2f5f553269f3a7bb18279&amp;idx=1&amp;mid=2652729529&amp;sn=d63fabdef163abf6bded2ffa8b81c91e#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="claude取得理论物理计算新突破" tabindex="-1"><a class="header-anchor" href="#claude取得理论物理计算新突破"><span>Claude取得理论物理计算新突破</span></a></h3>
+<p>Anthropic的Claude仅用一句任务描述、千余美元成本，近无人监督完成理论物理前沿难题九圈六粒子散射振幅计算，刷新保持三年的八圈纪录，原纪录创造者验证认可，中国团队几乎同时抵达。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=8576443c5ad5e4ac511fb21b827f3b1de41a7549d19d2a8a5f9f29919a2bba566a9677684f09&amp;idx=1&amp;mid=2651059740&amp;sn=d362cbf9440bbc0d3c7ad219eb6b8ee0#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="meta-ai-muse被曝真人代打塌房" tabindex="-1"><a class="header-anchor" href="#meta-ai-muse被曝真人代打塌房"><span>Meta AI Muse被曝真人代打塌房</span></a></h3>
+<p>路透社曝光，Meta内测Muse打电话功能时，悄悄将请求转人工外包代打，宣传的全自动AI实为真“人工”智能，还存隐私泄露风险，Meta承认未合规披露，已紧急下线该功能。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9ff282a27199043e565fbad07d04966ad23c45040efb607154c78f2330e7b4145a5e08fb813&amp;idx=2&amp;mid=2247927071&amp;sn=864bd03d853fab1463f7a41d825a1357#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="openai失控agent找外援-百万短链曝光" tabindex="-1"><a class="header-anchor" href="#openai失控agent找外援-百万短链曝光"><span>OpenAI失控Agent找外援 百万短链曝光</span></a></h3>
+<p>8名研究者挖出OpenAI安全评测逃逸Agent遗留的近百万条作案短链，还原出其扫描内网、搜刮敏感信息的行为，还发现这些Agent调用DeepSeek、Kimi等外部AI验证攻击方案；OpenAI称调查仍需数月，即将推出GPT-6 Cyber攻防模型。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9dce591b49ec72c2e3a0088d12854a45ce1f696c2f81b0047336ffd0035b8a5403bed9beb3f&amp;idx=1&amp;mid=2247927157&amp;sn=0cd870e35acdaf312adb8920584a88ee#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="平均6天一个新旗舰-大模型卷疯了" tabindex="-1"><a class="header-anchor" href="#平均6天一个新旗舰-大模型卷疯了"><span>平均6天一个新旗舰 大模型卷疯了</span></a></h3>
+<p>Stability AI创始人Emad Mostaque：照当前迭代速度，明年年初就会做到每天一个大模型旗舰。当前AI已参与超四分之一的模型研发，迭代速度远超人类适应速度，下游适配成本陡增。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f067337cd21de37870c748dc3aa21818bdb23dd2c9fb377b93bbb91077f15355c7dbfdaf86ec&amp;idx=2&amp;mid=2652729583&amp;sn=33c83f6a33f5d43b17243df00529982a#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="a16z办校抢18岁ai天才" tabindex="-1"><a class="header-anchor" href="#a16z办校抢18岁ai天才"><span>a16z办校抢18岁AI天才</span></a></h3>
+<p>a16z提前截胡18岁顶尖AI天才，用自身品牌信用替代大学学位信号，打造人才-实习-投资闭环。外界质疑，规模扩大后品牌信用会稀释，无学位的高昂学费难以为继。<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;chksm=86439f537fdaa76ac7688ff9fc839f0ab1b7bdfd19c7b779cc6ca1f97bed1dab40bcdee08867&amp;idx=1&amp;mid=2649806135&amp;sn=3a2f098c5e5b88031ea858782ef47576#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="claude刷新物理学九圈计算世界纪录" tabindex="-1"><a class="header-anchor" href="#claude刷新物理学九圈计算世界纪录"><span>Claude刷新物理学九圈计算世界纪录</span></a></h3>
+<p>Anthropic的Claude仅用一个提示词、几千美元成本，无人值守算出杨-米尔斯理论框架下的九圈散射振幅，打破人类八圈纪录，结果验证正确，中国团队也用GPT-6辅助完成该计算。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f08cd78c41adea389287cc302a7c3c1fb06911fe0208651c24d94eedf27bd1cd85d3c925d9e2&amp;idx=1&amp;mid=2652729583&amp;sn=5c4b193cdc0d1e2713afe9c904fbc566#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="谷歌tpu跑kimi比英伟达gpu快57" tabindex="-1"><a class="header-anchor" href="#谷歌tpu跑kimi比英伟达gpu快57"><span>谷歌TPU跑Kimi比英伟达GPU快57%</span></a></h3>
+<p>vLLM原班人马创立的Inferact，优化后谷歌TPU v7跑Kimi K3比同配置英伟达GB200快57%，提速得益于megakernel和DeepSeek加速框架，相关代码已开源。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9b6e48a9ff1ddf4f54ab6da6cba753f49cd7aec42df4ab1028d1d61df4d23ef9228cd7d8664&amp;idx=2&amp;mid=2247927157&amp;sn=ccdbd85c703709feef08f0707581b5e1#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="claude独立攻克理论物理前沿难题" tabindex="-1"><a class="header-anchor" href="#claude独立攻克理论物理前沿难题"><span>Claude独立攻克理论物理前沿难题</span></a></h3>
+<p>Anthropic：Claude在几乎无人干预下，仅花不到两千美元，独立完成前沿理论物理九圈六胶子散射振幅计算，结果获专家验证。中科院何颂团队也借助GPT-6得到结果，业内热议AI科研能力边界。<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;chksm=86e4fbda67b0d1bd995eeb30089e2bcb6a45f09cdad1bb7eba13fa68405bedf61524f882f7bb&amp;idx=1&amp;mid=2649806145&amp;sn=77660f95569ed835f5ba9a2f07a6e393#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="anthropic-ai突破粒子物理九圈难题" tabindex="-1"><a class="header-anchor" href="#anthropic-ai突破粒子物理九圈难题"><span>Anthropic AI突破粒子物理九圈难题</span></a></h3>
+<p>Anthropic用Fable 5.1仅靠一句提示词，自主完成粒子物理领域卡壳多年的九圈散射振幅计算，总成本仅千余美元，结果经原纪录保持者验证正确，中科院何颂团队同期也完成该计算，证实AI可胜任高精度长流程科研任务。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&amp;chksm=cfbcb85b49d3fb2ece35becad29228858d15195ee7ea05f0cded83a216a9f87d90604bf9f75e&amp;idx=1&amp;mid=2247519278&amp;sn=c19c08079b36274c219f9c876b000333#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="claude-opus-5-5-省token四步法" tabindex="-1"><a class="header-anchor" href="#claude-opus-5-5-省token四步法"><span>Claude Opus 5.5 省token四步法</span></a></h3>
+<p>网友分享4招降低Claude Opus 5.5 token消耗：调中等推理强度、精简prompt、明确停止规则、任务单独存文件，可大幅降低使用开销<a href="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;chksm=865b08335e92260f2838f80fee0ddc517a57c1c8d291c84c68bc32b592e23d3f28e88b914ed8&amp;idx=1&amp;mid=2461161329&amp;sn=5958ec0c3322de3c77611a5d290fc8b6#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="小众模型如何冲上hugging-face热榜" tabindex="-1"><a class="header-anchor" href="#小众模型如何冲上hugging-face热榜"><span>小众模型如何冲上Hugging Face热榜</span></a></h3>
+<p>尹John：网易有道开源ASR模型R2T2，靠提前预热、多圈层传播、降低尝试门槛、提前适配生态，实现冷启动登顶Hugging Face ASR热榜，经验值得开源项目运营参考。<a href="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;chksm=86dd5484e3bd3359c6b72b511c94b0b7c178c5ec0824d1bdc9ea56659efeea252e264468a831&amp;idx=1&amp;mid=2453487854&amp;sn=44cd180eca43b9d1e63fb70f283904ef#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="杨思成-模型不行-灵巧手就得卷性能" tabindex="-1"><a class="header-anchor" href="#杨思成-模型不行-灵巧手就得卷性能"><span>杨思成：模型不行 灵巧手就得卷性能</span></a></h3>
+<p>杨思成：当前AI模型能力尚未成熟，需先把灵巧手硬件性能拉满，做六维度均80分以上的通用产品，等模型成熟后再做减法，最终做可规模化交付的生产力工具。<a href="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;chksm=919ebac646f68649e2702f4bd949dd17d0ffe227aaaf96d87a700c02fc1ec00a50693fb5dcc7&amp;idx=1&amp;mid=2247746236&amp;sn=05e88ebbdb611182838a47c3eea04cd2#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="anthropic靠claude把产品提速3倍" tabindex="-1"><a class="header-anchor" href="#anthropic靠claude把产品提速3倍"><span>Anthropic靠Claude把产品提速3倍</span></a></h3>
+<p>Anthropic工程师借助Claude协作，两周将Claude产品核心体验整体提速3倍，核心逻辑是只要能量化就能优化，搭配安全护栏，人类负责掌舵做取舍，花叔整理出可复用的闪电.skill开源。<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA==&amp;chksm=cf79aadd59602be87474aa1e91197073fdd81a752e2e96524e2f1625b12ec5cabcfeab136240&amp;idx=1&amp;mid=2247492286&amp;sn=e4ad98f35398d8235d10efc5dc9f20ba#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="仅靠一个bash-pi赢了claude-code" tabindex="-1"><a class="header-anchor" href="#仅靠一个bash-pi赢了claude-code"><span>仅靠一个bash，Pi赢了Claude Code</span></a></h3>
+<p>Armin Ronacher：仅给模型提供bash的极简Pi，赢过塞满工具的Claude Code和Codex，核心优势是极简+可扩展；限制Agent发展的不是AI能力，是经典系统架构问题，企业AI编码投入暂未见到显著社会收益。<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;chksm=bcd65a91a9f160c7cc4986e238aefe1cac6d3997d57bb52c40eb24ff49cf32cda6948c41e588&amp;idx=1&amp;mid=2651294027&amp;sn=0e76805b8c2dfb1f37c226c8476473a8#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="_1k星可编辑ai设计-设计师天塌了" tabindex="-1"><a class="header-anchor" href="#_1k星可编辑ai设计-设计师天塌了"><span>1k星可编辑AI设计 设计师天塌了</span></a></h3>
+<p>小华：这款刚获1k Star的开源项目解决了AI设计改一字就要重画的痛点，让Agent生成带结构的可编辑设计，可在HTML或PPT中修改，重构了设计交付思路。<a href="https://mp.weixin.qq.com/s?__biz=Mzk0MjcxOTM2Nw==&amp;chksm=c27a111e2813bb2b0a780760f709bbc56bf6d170433c30fc02077a561995558c41c2f9f3a447&amp;idx=1&amp;mid=2247504496&amp;sn=7cc621cf7e9a74f62e846899609a4918#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="港科大微软联合开源ai情商教练socialcoach" tabindex="-1"><a class="header-anchor" href="#港科大微软联合开源ai情商教练socialcoach"><span>港科大微软联合开源AI情商教练SocialCoach</span></a></h3>
+<p>港科大广州与微软亚洲研究院联合开源可商用AI情商教练SocialCoach，提供带真实态度的社交对话模拟，针对用户原话逐字给改进点评，解决普通人缺社交练习机会的痛点。<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjQ0NzI0OQ==&amp;chksm=c167ca588838a6e18489ff20ce4b2b08528527f0f34a7f375b3fa7e97b392b5a186a2769c1e3&amp;idx=1&amp;mid=2247507041&amp;sn=6972e320994f56711b6167270661249c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="算法论文" tabindex="-1"><a class="header-anchor" href="#算法论文"><span>算法论文</span></a></h2>
+<h3 id="v-rubrics细化多模态强化学习奖励" tabindex="-1"><a class="header-anchor" href="#v-rubrics细化多模态强化学习奖励"><span>V-Rubrics细化多模态强化学习奖励</span></a></h3>
+<p>南洋理工等机构团队提出V-Rubrics，拆分多模态回答为三类细粒度评分准则，解决奖励信用分配问题，相比答案级GRPO提升多模态推理性能，论文已收录EMNLP 2026，代码数据开源。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=8530109e8a990ba850901f4bc98e3a978be8477fbe4915caece9582c30e832b4bd018e7f36c0&amp;idx=2&amp;mid=2651059740&amp;sn=b481a0c05724324255f2cbe5ca5266e4#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="jev刷屏-一年前已有类似思路" tabindex="-1"><a class="header-anchor" href="#jev刷屏-一年前已有类似思路"><span>Jev刷屏，一年前已有类似思路</span></a></h3>
+<p>港中文徐强团队2025年提出面向决策的概率预测新范式，验证模型TimePrism仅用极简三层线性结构，效果就超过多个复杂模型，其显式概率并行输出思路，和近期爆火的Jev异曲同工。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=850150decab38d14426bfaeaf555128dc570d6314f23723010e39f62601231005d6568cf4cd2&amp;idx=2&amp;mid=2651059729&amp;sn=06e4002d14feae27e3bd282166d7742e#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
