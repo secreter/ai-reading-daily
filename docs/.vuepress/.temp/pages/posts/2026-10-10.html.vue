@@ -1,0 +1,40 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-10-10-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-10-10-资讯日报"><span>2026-10-10 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="sierra发布poppy-ai代理不用装人" tabindex="-1"><a class="header-anchor" href="#sierra发布poppy-ai代理不用装人"><span>Sierra发布Poppy：AI代理不用装人</span></a></h3>
+<p>Sierra联合Meta、OpenAI等巨头发布开源Poppy协议，给AI代理合法身份，设分级权限解决AI代理装人操作的痛点，目前草案仍存争议待迭代。<a href="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;chksm=865f371a9b73054adea8edde9bdf35f8903201afc0dbdee26b26ad2326c386f8d1845787302d&amp;idx=1&amp;mid=2461161499&amp;sn=37b5230cfea25cf0a3b4c8b911d2f3c9#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="openai推出四维挂谷猜想175页证明稿" tabindex="-1"><a class="header-anchor" href="#openai推出四维挂谷猜想175页证明稿"><span>OpenAI推出四维挂谷猜想175页证明稿</span></a></h3>
+<p>王虹已解决三维集合版挂谷猜想，OpenAI公开两篇共272页手稿，分别证明三维极大函数版和一般四维集合版挂谷猜想，若经检验成立，将是AI参与数学研究的重大突破。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f05a88d16317b78a76ce898b398dc02a7966a234b7243923844579c4a8e83493eec679ddca9f&amp;idx=1&amp;mid=2652733338&amp;sn=58f4348bb905cc6ecbbb4a0b1cfca986#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="openai-dots登陆手机-可指挥codex" tabindex="-1"><a class="header-anchor" href="#openai-dots登陆手机-可指挥codex"><span>OpenAI dots登陆手机 可指挥Codex</span></a></h3>
+<p>OpenAI将AI智能体dots开放到手机端，用户可全流程在手机创建配置dots，dots可统筹任务指挥Codex编程；Codex新增输入预测功能，生成下一步指令建议，不额外消耗Pro套餐用量。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f04f83f681302bf675be8cfc3e28d55aed6b44c69615aa1cd34122f4753720103b715cb49ebb&amp;idx=1&amp;mid=2652733297&amp;sn=8fdfd020669b925c14923103b9356038#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="ai制药越快-中国实验室越忙" tabindex="-1"><a class="header-anchor" href="#ai制药越快-中国实验室越忙"><span>AI制药越快，中国实验室越忙</span></a></h3>
+<p>AI制药压缩分子设计周期后催生大量待验证分子，线下实体实验需求爆发，多数需求流向成本低速度快的中国实验室；美国试图回流产能但短期难替代，未来走向取决于AI药物临床效果与政策。<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;chksm=8690bc68c2fdbf432d52589e72ccad22404c0e6581edba102ff5bb748dd0d9d79714a25e6c8d&amp;idx=1&amp;mid=2649806865&amp;sn=01183e8ef0fd0abfcb6fba7037bcb763#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="谷歌下一代gemini-4-carbon曝光" tabindex="-1"><a class="header-anchor" href="#谷歌下一代gemini-4-carbon曝光"><span>谷歌下一代Gemini 4 Carbon曝光</span></a></h3>
+<p>外媒爆料谷歌内部测试下一代大模型Gemini 4 Carbon，性能逼近Anthropic Opus 5.5，核心依靠递归自我提升RSI技术。外界吐槽谷歌发布拖沓，模型一直内网自嗨，普通用户迟迟用不上。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0c68a17dc2918368d185f47ada1c3e696cf1cc5e751bb0d317763477434cef6511753c43641&amp;idx=2&amp;mid=2652733364&amp;sn=56fe29c6a35934b8afd94cc4ce0b8969#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="jepa与空间智能-世界模型正面交锋" tabindex="-1"><a class="header-anchor" href="#jepa与空间智能-世界模型正面交锋"><span>JEPA与空间智能 世界模型正面交锋</span></a></h3>
+<p>清华团队联合多机构推出WorldArena 2.0挑战赛，将世界模型评测推进到真实机器人在线交互；JEPA路线暂占优势，学界产业各有所长，当前模型仍难应对复杂真实交互。<a href="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;chksm=91d339cb45ec73c7e9115a4265b2d8f4b54def33880496b4da22719c304fe7ce92a26404d1ad&amp;idx=1&amp;mid=2247746848&amp;sn=5c37c30f885b1a7837f07b2c1c7560f0#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="ai破解数学难题-引发学界震荡" tabindex="-1"><a class="header-anchor" href="#ai破解数学难题-引发学界震荡"><span>AI破解数学难题 引发学界震荡</span></a></h3>
+<p>Scott Aaronson：OpenAI用AI平均花3小时解决一个顶级数学难题，AI生成的证明人类难以读懂，称这是数学界末日。陶哲轩牵头联合声明抨击OpenAI这是炫耀算力霸权，呼吁停止合作。Yann LeCun认为AI会推动数学进入新时代，是发现了新大陆。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f066e1f20a92bad3cb0f13865c658654ccb757bd0a87ccec11f6ddac808ac41edb23db58987d&amp;idx=2&amp;mid=2652733338&amp;sn=9723721f20ef2bce4d59b700b55ac083#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="实测豆包新版多模态写代码" tabindex="-1"><a class="header-anchor" href="#实测豆包新版多模态写代码"><span>实测豆包新版多模态写代码</span></a></h3>
+<p>datayx：火山引擎升级的豆包Seed-2.1-pro-0915，重点升级多模态编程，可看图录屏生成可运行代码，能走完完整编程闭环，已在多平台上线，支持多类开发场景。<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk3ODI2OA==&amp;chksm=860bf48cfda2c93a88021593e45b6976cf767ec0e06c730c7a472ee02bf7ac9faa801777cf1c&amp;idx=1&amp;mid=2650365437&amp;sn=092ba4dd56c44f22658b552ecc99e73c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="google推出企业级gemini-agent" tabindex="-1"><a class="header-anchor" href="#google推出企业级gemini-agent"><span>Google推出企业级Gemini agent</span></a></h3>
+<p>Google：10月8日发布企业级Gemini agent，可承接用户目标自主规划多步骤任务，支持调度Gemini与Claude模型，AI智能体可拥有独立企业身份，配套权限审计，可接入现有企业工作流。<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;chksm=cf20fae0d7d6959feee362a6943e1aeffce86725103e4b490ac68cad9785f782140236494302&amp;idx=1&amp;mid=2247527062&amp;sn=ba78ae20e1e00339828c4526e76233a8#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="ai造ai-2026递归自我改进加速" tabindex="-1"><a class="header-anchor" href="#ai造ai-2026递归自我改进加速"><span>AI造AI：2026递归自我改进加速</span></a></h3>
+<p>2026年全球各大AI实验室已推进AI递归自我改进实践，Anthropic称Claude主导26%研发，OpenAI AI研究实习生已上岗；但学界指出当前AI是优秀工程师，却仍是平庸研究员，真正智能爆炸尚未到来。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=850ce24ebcfa69481c6345e49a34d94401e37a233da004e1df943a609755074ba1a6272c2a1f&amp;idx=2&amp;mid=2651061999&amp;sn=a32b7966b60a9dc4c7cb7fc8dbe3291b#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="_5天完成公司ai化改造" tabindex="-1"><a class="header-anchor" href="#_5天完成公司ai化改造"><span>5天完成公司AI化改造</span></a></h3>
+<p>卡兹克：30人小公司全员早已用AI开发内部应用，此前缺统一部署分享机制，作者花5天基于飞书搭建原生AI企业中台，实现AI应用快速部署与权限管控，让系统适配员工。<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;chksm=f147efbf96d79b6ecf7c7f55b9df6010d522b781f548b26173172b9530084b90200fd4f9dd92&amp;idx=1&amp;mid=2647686948&amp;sn=d43b6d924d339092f96e3ba826119f6c#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="_2-2k-star-治ai生图画风漂移开源项目" tabindex="-1"><a class="header-anchor" href="#_2-2k-star-治ai生图画风漂移开源项目"><span>2.2K Star！治AI生图画风漂移开源项目</span></a></h3>
+<p>开源星探：AI生图反复画风漂移、难复现是常见痛点，这个开源项目提供21套验证好的手绘画风配方，适配各类Agent，轻量零依赖，能快速生成稳定prompt，提升出图一致性，省时间稳质量。<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjQ0NzI0OQ==&amp;chksm=c19536d8ca3cb466a7e34a305bbb68b2c16d83059cbafd66442ffdcc4830c21df271c81b167b&amp;idx=1&amp;mid=2247507129&amp;sn=0a43576cd1e2d9375bb295e4cc4ae083#rd" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
