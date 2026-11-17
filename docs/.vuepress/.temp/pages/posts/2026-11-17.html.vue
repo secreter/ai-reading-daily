@@ -1,0 +1,57 @@
+<template><div><blockquote>
+<p>All in AI，看见未来。 每天精选最值得读的AI文章，帮你筛掉时代的噪音。 以简讯见广度，以深读见洞察。 技术、趋势、思考，一站式掌握AI世界。
+欢迎关注公众号「AI Reading Hub」，获取更多AI资讯和技术文章。</p>
+</blockquote>
+<h1 id="_2026-11-17-资讯日报" tabindex="-1"><a class="header-anchor" href="#_2026-11-17-资讯日报"><span>2026-11-17 资讯日报</span></a></h1>
+<h2 id="新闻资讯" tabindex="-1"><a class="header-anchor" href="#新闻资讯"><span>新闻资讯</span></a></h2>
+<h3 id="前anthropic团队获10亿美元融资" tabindex="-1"><a class="header-anchor" href="#前anthropic团队获10亿美元融资"><span>前Anthropic团队获10亿美元融资</span></a></h3>
+<p>前 Anthropic 员工创办的 Mirendil 宣布完成 10亿美元A轮融资，累计融资12亿美元。公司称，一名员工借助智能体用三个半月完成基础模型预训练，成果仍待外部检验。<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;chksm=8557c2be9331e29c0876af17499689ef7cde3b432067a2a61936ad9e41a8df2e65708abd2c6f&amp;idx=3&amp;mid=2652814121&amp;sn=6f6a638ea04022194d6ff9241845777e" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="ai假论文冒用李飞飞等学者署名" tabindex="-1"><a class="header-anchor" href="#ai假论文冒用李飞飞等学者署名"><span>AI假论文冒用李飞飞等学者署名</span></a></h3>
+<p>机器之心援引调查报道，多本期刊批量发表 AI 生成论文，冒用李飞飞、Hinton等学者署名，借名气吸引付费投稿；部分假论文已被学术搜索收录。</p>
+<p>核实：受访学者明确否认写作或授权署名</p>
+<p>后果：投诉后有论文仅更换作者名继续挂出<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=855967e63dcf094fadaf2a3e4be5aade23520307f8197c27c1e206d8bf9411207f3839f46c88&amp;idx=2&amp;mid=2651074684&amp;sn=d9d5b8d0066e6f455ff6395786414131" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="产品应用" tabindex="-1"><a class="header-anchor" href="#产品应用"><span>产品应用</span></a></h2>
+<h3 id="yolo26文字检测接上ocr识别" tabindex="-1"><a class="header-anchor" href="#yolo26文字检测接上ocr识别"><span>YOLO26文字检测接上OCR识别</span></a></h3>
+<p>Ultralytics 将 YOLO26-Text 与 PP-OCRv6 结合，支持页面方向校正和按阅读顺序返回文字，可在 CPU、GPU 上运行；默认识别器覆盖中文、日文和拉丁字母体系。<a href="https://mp.weixin.qq.com/s?__biz=Mzg5NzgyNTU2Mg==&amp;chksm=c1a6686922387e6f104d0c555959383e062adfe51f5ce8190cbce8daf60ab003672ab027fcb1&amp;idx=1&amp;mid=2247544023&amp;sn=af359788cd6776f960f8b35ac372a39c" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="豆包工作向全体用户开放多模型" tabindex="-1"><a class="header-anchor" href="#豆包工作向全体用户开放多模型"><span>豆包工作向全体用户开放多模型</span></a></h3>
+<p>豆包工作已向所有用户开放 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型，可手动选择，也可由自动模式按任务匹配。</p>
+<p>额度：不同模型标注不同消耗倍率</p>
+<p>场景：原文实测论文复现、制作技能与改稿<a href="https://mp.weixin.qq.com/s?__biz=MzYyMTY1NDA0Nw==&amp;chksm=fe242f67ed28ae713fa19574a5fa4c69bcf9e8742237677e53589473761766435af6573db76d&amp;idx=1&amp;mid=2247522948&amp;sn=54b726811dfb580b5038ced1744a50e7" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="workbuddy新模型限免至月底" tabindex="-1"><a class="header-anchor" href="#workbuddy新模型限免至月底"><span>WorkBuddy新模型限免至月底</span></a></h3>
+<p>腾讯 WorkBuddy 国内、国际版接入混元 Hy4 flash，11月16日至11月30日23:59可限额免费体验；超额可用积分继续，生成图片、视频仍按正常规则扣积分。</p>
+<p>上下文：支持多模态与百万级上下文</p>
+<p>接口价：每百万Token输入0.5元、输出2元<a href="https://mp.weixin.qq.com/s?__biz=MzYzODgxODMzNQ==&amp;chksm=f195df3ad626ed6a48eb8c99a1f75c87f09c625afe378c66fb3b5dcb03ea92e86f32500ee85d&amp;idx=1&amp;mid=2247497810&amp;sn=42714816ab06d06becce0385c63d067e" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="推荐文章" tabindex="-1"><a class="header-anchor" href="#推荐文章"><span>推荐文章</span></a></h2>
+<h3 id="九校综述拆解持续在线个人智能" tabindex="-1"><a class="header-anchor" href="#九校综述拆解持续在线个人智能"><span>九校综述拆解持续在线个人智能</span></a></h3>
+<p>九所高校研究者梳理632篇文献、119个系统，提出感知、记忆、行动持续闭环的个人智能框架，并开源诊断工具 HALO；按其标准，后台驻留与定时触发仍不足以证明持续在线。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0d84576905dd335ba0e321fc1dc851eb2907f61640ca5b6bcc1980ec85e881bf3bf9d95d840&amp;idx=3&amp;mid=2652743418&amp;sn=8b92d4864468c4215aac4b477afb529c" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="开源动态" tabindex="-1"><a class="header-anchor" href="#开源动态"><span>开源动态</span></a></h2>
+<h3 id="华为开源昇腾原生具身世界模型" tabindex="-1"><a class="header-anchor" href="#华为开源昇腾原生具身世界模型"><span>华为开源昇腾原生具身世界模型</span></a></h3>
+<p>华为云发布并开源 CloudRobo-WM1.2，让机器人结合环境预测生成动作。模型开放下载，训练框架与昇腾工程代码定向向核心伙伴开放，开放范围各有边界。<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&amp;chksm=bcb70e24d065f651bb450127775c147ba6a5f9267af1a6dea001e15e94847b7cd89b367d2bdb&amp;idx=2&amp;mid=2661080403&amp;sn=15be4c133101d07516529a55cd86c038" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="字节等开源axion智能体训练配方" tabindex="-1"><a class="header-anchor" href="#字节等开源axion智能体训练配方"><span>字节等开源Axion智能体训练配方</span></a></h3>
+<p>杜克大学、字节跳动等推出 Axion 1.0，用两阶段监督微调加强化学习训练智能体，公开训练代码、数据构造方法与数据。</p>
+<p>能力：覆盖科学推理、搜索与工具使用</p>
+<p>结果：122B版在限制部分网站的HLE测评得59.0%<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85d1dd3751c5705b5afdb39acb16bec62d2373cba4f91bc59ed018df1f6cedbaf7c78ae95805&amp;idx=3&amp;mid=2651074900&amp;sn=b8ce1837d869e2563a888e3df5a04a89" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="谷歌开源多模态agent记忆示例" tabindex="-1"><a class="header-anchor" href="#谷歌开源多模态agent记忆示例"><span>谷歌开源多模态Agent记忆示例</span></a></h3>
+<p>Google Cloud 工程师公开 FashionMind 示例：精确事实存关系数据库，长期偏好单独保存，音视频提炼后再入记忆；明确指令即时写入，偏好总结留给后台，减少语音卡顿。<a href="https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&amp;chksm=e98c594988713b7793492592948ba9d04d76ad7204b5e4ddaebea154e1db2de2c136cf248251&amp;idx=1&amp;mid=2247730088&amp;sn=79de49328253a9c46d4302241451ddf6" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h2 id="算法论文" tabindex="-1"><a class="header-anchor" href="#算法论文"><span>算法论文</span></a></h2>
+<h3 id="模型权重能暴露gpu初始化指纹" tabindex="-1"><a class="header-anchor" href="#模型权重能暴露gpu初始化指纹"><span>模型权重能暴露GPU初始化指纹</span></a></h3>
+<p>研究者扫描265个开放权重模型，从185个模型中识别出 GPU 初始化痕迹。这些指纹只提供初始化环境线索，无法单凭它们确定完整训练硬件、部署地点或是否违规。<a href="https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&amp;chksm=fa2b17ca71a5789bfef8fdedb56f0629427a2945b8fa402f8284b7c87c932e1ba7fca35a16c4&amp;idx=1&amp;mid=2247784010&amp;sn=d9a2c34679c77ce4d810cb0147898105" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="lsa让超长上下文单层提速22-7倍" tabindex="-1"><a class="header-anchor" href="#lsa让超长上下文单层提速22-7倍"><span>LSA让超长上下文单层提速22.7倍</span></a></h3>
+<p>Prefrontal AI 与苏黎世联邦理工学院开源 LSA，用分层索引寻找相关内容；千万 token 测试中，GLM-5.3-Flash单个注意力层预填充快22.7倍。</p>
+<p>整机效果：首个Token等待从约7.5降至3.4分钟</p>
+<p>边界：单层提速幅度不能直接当成整模型提速<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=8585346b63a32d775d8dd75f2bb19e301056e8a979b8e940f4dc1a66bbf7b02479e85c532844&amp;idx=2&amp;mid=2651074900&amp;sn=9e3dc407e5451c7ff8aef36fd598f6ce" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="agent可能把别人的偏好记成你的" tabindex="-1"><a class="header-anchor" href="#agent可能把别人的偏好记成你的"><span>Agent可能把别人的偏好记成你的</span></a></h3>
+<p>北邮团队研究发现，智能体读取嵌套对话时，可能把别人的偏好误存成自己的用户偏好，随后选用攻击者的工具，甚至泄露隐私。记忆需要保留信息属于谁、来自哪里。<a href="https://mp.weixin.qq.com/s?__biz=MzAxNjA0MjIzNg==&amp;chksm=826a044fe297225d5b54b9b14f1aec8b4ea826c57524ba4a6b5f6c6b0a212ce1fefc5284a224&amp;idx=1&amp;mid=2650017434&amp;sn=63c7d91f7d2557a802af57f803f53073" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="清华skillmaster让智能体学会改技能" tabindex="-1"><a class="header-anchor" href="#清华skillmaster让智能体学会改技能"><span>清华SkillMaster让智能体学会改技能</span></a></h3>
+<p>清华等团队提出 SkillMaster，把创建、更新和保留技能纳入强化学习，按后续任务是否更易成功、步骤是否减少来评价修改；在模拟家庭任务 ALFWorld 上成功率达98.7%。<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;chksm=85c7efc5a93149be3e852d09a8c345bc1dfadeab947f2b1926b027c56d66d1b249a9ce1cd6dd&amp;idx=3&amp;mid=2651074684&amp;sn=98e2d05a9365087f6adf4590de6d8793" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="v-cast免训练压缩长视频输入" tabindex="-1"><a class="header-anchor" href="#v-cast免训练压缩长视频输入"><span>V-CAST免训练压缩长视频输入</span></a></h3>
+<p>中山大学、港理工等提出 V-CAST，在送入语言模型前筛选视觉 token。768帧音视频测试总推理耗时降低50.0%，保留原模型97.1%的表现；效果取决于模型与输入长度。<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;chksm=e9b62a68f6770601faf28b7cc1f4ea7701e35cdec0455201147e7c6f494b4e02fe30d1fc4df3&amp;idx=3&amp;mid=2247944324&amp;sn=0ec2b49fbc70dea4c1fc90bbcd164d64" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<h3 id="opus自建ai基建五项超过基线" tabindex="-1"><a class="header-anchor" href="#opus自建ai基建五项超过基线"><span>Opus自建AI基建五项超过基线</span></a></h3>
+<p>CMU 等用六项任务测试 AI 自建算力软件。Opus 5.5 配合 Claude Code 综合指数达1.25，基线为1；五项超过成熟系统，后训练一项接近基线，结果限于评测设置。<a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;chksm=f0d102d7569b98b1ffa8fa78d4a7231c46ee99c7b2d5df8823784c2f9b362f6904e23e378148&amp;idx=2&amp;mid=2652743418&amp;sn=32755f1e9926a2531bc14768e032d389" target="_blank" rel="noopener noreferrer">&gt;阅读原文</a></p>
+<p style="text-align: center;">
+            <img id="weixin_qr" src="https://meikan-public-images.oss-cn-beijing.aliyuncs.com/imeikan/assets/2025-05-18234303-hub.png" style="max-width: 800px; object-fit: cover;" />
+        </p>
+<p><a href="https://aireadinghub.com/" target="_blank" rel="noopener noreferrer">官网：www.AiReadingHub.com</a></p>
+</div></template>
+
+
